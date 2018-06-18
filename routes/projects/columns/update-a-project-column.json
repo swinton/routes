@@ -6,20 +6,13 @@
   "params": [
     {
       "name": "column_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "name",
-      "type": "string",
-      "description": "The new name of the column.",
-      "required": true,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "update-column",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/projects/columns/#update-a-project-column"
 }

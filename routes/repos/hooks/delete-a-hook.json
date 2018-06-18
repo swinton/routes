@@ -20,13 +20,13 @@
     },
     {
       "name": "hook_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "delete-hook",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/hooks/#delete-a-hook"
 }

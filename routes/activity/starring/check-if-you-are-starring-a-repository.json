@@ -2,10 +2,10 @@
   "name": "Check if you are starring a repository",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/user/starred/:owner/:repo",
+  "path": "/user/watched/:user/:repo",
   "params": [
     {
-      "name": "owner",
+      "name": "user",
       "type": "string",
       "required": true,
       "description": "",
@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "Requires for the user to be authenticated.",
-  "idName": "check-starring-repo",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/activity/starring/#check-if-you-are-starring-a-repository"
 }

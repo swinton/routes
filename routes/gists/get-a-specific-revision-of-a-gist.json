@@ -2,17 +2,17 @@
   "name": "Get a specific revision of a gist",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/gists/:gist_id/:sha",
+  "path": "/gists/:gist_id/:version",
   "params": [
     {
       "name": "gist_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "sha",
+      "name": "version",
       "type": "string",
       "required": true,
       "description": "",
@@ -20,6 +20,6 @@
     }
   ],
   "description": "",
-  "idName": "get-revision",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/gists/#get-a-specific-revision-of-a-gist"
 }

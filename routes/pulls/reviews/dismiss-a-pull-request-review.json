@@ -27,20 +27,13 @@
     },
     {
       "name": "review_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "message",
-      "type": "string",
-      "description": "**Required.** The message for the pull request review dismissal",
-      "required": false,
-      "location": "body"
     }
   ],
-  "description": "**Note:** To dismiss a pull request review on a [protected branch](https://developer.github.com/v3/repos/branches/), you must be a repository administrator or be included in the list of people or teams who can dismiss pull request reviews.",
-  "idName": "dismiss-review",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/pulls/reviews/#dismiss-a-pull-request-review"
 }

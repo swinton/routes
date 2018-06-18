@@ -17,25 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
     }
   ],
-  "description": "When authenticating as a user with admin rights to a repository, this endpoint will list all currently open repository invitations.\n\n",
-  "idName": "list-invitations",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/invitations/#list-invitations-for-a-repository"
 }

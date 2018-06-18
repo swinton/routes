@@ -20,13 +20,13 @@
     },
     {
       "name": "build_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-pages-build",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/pages/#get-a-specific-pages-build"
 }

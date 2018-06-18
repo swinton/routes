@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "Check if a user is, publicly or privately, a member of the organization.",
-  "idName": "check-membership",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/orgs/members/#check-membership"
 }

@@ -17,38 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "sort",
-      "type": "string",
-      "description": "The sort order. Can be either `newest`, `oldest`, or `stargazers`.",
-      "default": "newest",
-      "required": false,
-      "enum": [
-        "newest",
-        "oldest",
-        "stargazers"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
     }
   ],
   "description": "",
-  "idName": "list-forks",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/forks/#list-forks"
 }

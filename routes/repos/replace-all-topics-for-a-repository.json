@@ -17,16 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "names",
-      "type": "string[]",
-      "description": "An array of topics to add to the repository. Pass one or more topics to _replace_ the set of existing topics. Send an empty array (`[]`) to clear all topics from the repository.",
-      "required": true,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "replace-topics",
-  "documentationUrl": "https://developer.github.com/v3/repos/#replace-all-topics-for-a-repository"
+  "idName": "",
+  "documentationUrl": "https://developer.github.com/v3/repos#replace-all-topics-for-a-repository"
 }

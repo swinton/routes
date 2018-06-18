@@ -20,29 +20,13 @@
     },
     {
       "name": "comment_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
     }
   ],
-  "description": "\n\n**Note:** If a user created an issue comment via a GitHub App, the `performed_via_github_app` key will contain information on that GitHub App.",
-  "idName": "get-comment",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/issues/comments/#get-a-single-comment"
 }

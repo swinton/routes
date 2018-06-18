@@ -2,7 +2,7 @@
   "name": "Get a blob",
   "enabledForApps": true,
   "method": "GET",
-  "path": "/repos/:owner/:repo/git/blobs/:file_sha",
+  "path": "/repos/:owner/:repo/git/blobs/:sha",
   "params": [
     {
       "name": "owner",
@@ -19,14 +19,14 @@
       "location": "url"
     },
     {
-      "name": "file_sha",
+      "name": "sha",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "The `content` in the response will always be Base64 encoded.\n\n_Note_: This API supports blobs up to 100 megabytes in size.",
-  "idName": "get-blob",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/git/blobs/#get-a-blob"
 }

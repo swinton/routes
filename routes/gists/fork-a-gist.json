@@ -6,13 +6,13 @@
   "params": [
     {
       "name": "gist_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "**Note**: This was previously `/gists/:gist_id/fork`.",
-  "idName": "fork",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/gists/#fork-a-gist"
 }

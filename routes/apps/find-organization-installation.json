@@ -12,7 +12,7 @@
       "location": "url"
     }
   ],
-  "description": "Enables an authenticated GitHub App to find the organization's installation information.",
-  "idName": "find-org-installation",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/apps/#find-organization-installation"
 }

@@ -20,13 +20,13 @@
     },
     {
       "name": "check_suite_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Gets a single check suite using its `id`. Your GitHub App must have the `checks:read` permission on a private repository or pull access to a public repository to get check suites.",
-  "idName": "get-suite",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/checks/suites/#get-a-single-check-suite"
 }

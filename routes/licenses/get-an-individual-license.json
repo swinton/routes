@@ -13,6 +13,6 @@
     }
   ],
   "description": "",
-  "idName": "get",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/licenses/#get-an-individual-license"
 }

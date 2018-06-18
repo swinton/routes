@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "View the latest published full release for the repository. Draft releases and prereleases are not returned by this endpoint.",
-  "idName": "get-latest-release",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/releases/#get-the-latest-release"
 }

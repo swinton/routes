@@ -6,7 +6,7 @@
   "params": [
     {
       "name": "project_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "Returns the collaborator's permission level for an organization project. Possible values for the `permission` key: `admin`, `write`, `read`, `none`. You must be an organization owner or a project `admin` to review a user's permission level.",
-  "idName": "review-user-permission-level",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/projects/collaborators/#review-a-users-permission-level"
 }

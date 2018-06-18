@@ -1,11 +1,11 @@
 {
-  "name": "Check if you are watching a repository (LEGACY)",
+  "name": "Check if you are watching a repository legacy",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/user/subscriptions/:owner/:repo",
+  "path": "/user/subscriptions/:user/:repo",
   "params": [
     {
-      "name": "owner",
+      "name": "user",
       "type": "string",
       "required": true,
       "description": "",
@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "Requires for the user to be authenticated.",
-  "idName": "check-watching-repo-legacy",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/activity/watching/#check-if-you-are-watching-a-repository-legacy"
 }

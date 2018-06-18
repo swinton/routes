@@ -1,9 +1,8 @@
 {
-  "name": "Get all References",
+  "name": "Get all references",
   "enabledForApps": true,
   "method": "GET",
-  "path": "/repos/:owner/:repo/git/refs/:namespace",
-  "description": "This will return an array of all the references on the system, including things like notes and stashes if they exist on the server",
+  "path": "/repos/:owner/:repo/git/refs",
   "params": [
     {
       "name": "owner",
@@ -18,16 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "namespace",
-      "type": "string",
-      "description": "Filter by sub-namespace (reference prefix). Most commen examples would be `'heads/'` and `'tags/'` to retrieve branches or tags",
-      "required": false,
-      "location": "url"
     }
   ],
-  "isOverride": true,
-  "idName": "list-references",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/git/refs/#get-all-references"
 }

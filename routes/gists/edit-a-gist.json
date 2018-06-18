@@ -6,41 +6,13 @@
   "params": [
     {
       "name": "gist_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "description",
-      "type": "string",
-      "description": "A description of the gist.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "files",
-      "type": "object",
-      "description": "Files that make up this gist.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "content",
-      "type": "string",
-      "description": "Updated file contents.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "filename",
-      "type": "string",
-      "description": "New name for this file.",
-      "required": false,
-      "location": "body"
     }
   ],
-  "description": "The keys in the `files` object are the `string` filename. The value is another `object` with a key of `content` (indicating the new contents), or `filename` (indicating the new filename). For example:\n\n**Note**: All files from the previous version of the gist are carried over by default if not included in the object. Deletes can be performed by including the filename with a `null` object.",
-  "idName": "edit",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/gists/#edit-a-gist"
 }

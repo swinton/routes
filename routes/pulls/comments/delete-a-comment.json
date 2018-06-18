@@ -20,13 +20,13 @@
     },
     {
       "name": "comment_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "delete-comment",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/pulls/comments/#delete-a-comment"
 }

@@ -2,10 +2,10 @@
   "name": "Check if you are following a user",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/user/following/:username",
+  "path": "/user/following/:user",
   "params": [
     {
-      "name": "username",
+      "name": "user",
       "type": "string",
       "required": true,
       "description": "",
@@ -13,6 +13,6 @@
     }
   ],
   "description": "",
-  "idName": "check-following",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/users/followers/#check-if-you-are-following-a-user"
 }

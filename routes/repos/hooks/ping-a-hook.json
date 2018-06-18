@@ -1,6 +1,6 @@
 {
   "name": "Ping a hook",
-  "enabledForApps": false,
+  "enabledForApps": true,
   "method": "POST",
   "path": "/repos/:owner/:repo/hooks/:hook_id/pings",
   "params": [
@@ -20,13 +20,13 @@
     },
     {
       "name": "hook_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "This will trigger a [ping event](https://developer.github.com/webhooks/#ping-event) to be sent to the hook.",
-  "idName": "ping-hook",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/hooks/#ping-a-hook"
 }

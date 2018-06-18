@@ -1,18 +1,18 @@
 {
   "name": "Get a single installation",
-  "enabledForApps": true,
+  "enabledForApps": false,
   "method": "GET",
   "path": "/app/installations/:installation_id",
   "params": [
     {
       "name": "installation_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-installation",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/apps/#get-a-single-installation"
 }

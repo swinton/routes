@@ -26,7 +26,7 @@
       "location": "url"
     }
   ],
-  "description": "Sending an empty array (`[]`) will remove all Labels from the Issue.",
-  "idName": "replace-labels",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/issues/labels/#replace-all-labels-for-an-issue"
 }

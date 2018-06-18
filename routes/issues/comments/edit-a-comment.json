@@ -20,20 +20,13 @@
     },
     {
       "name": "comment_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "body",
-      "type": "string",
-      "description": "The contents of the comment.",
-      "required": true,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "edit-comment",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/issues/comments/#edit-a-comment"
 }

@@ -2,17 +2,17 @@
   "name": "Delete a comment",
   "enabledForApps": true,
   "method": "DELETE",
-  "path": "/teams/:team_id/discussions/:discussion_number/comments/:comment_number",
+  "path": "/teams/:team_id/discussions/:number/comments/:comment_number",
   "params": [
     {
       "name": "team_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "discussion_number",
+      "name": "number",
       "type": "integer",
       "required": true,
       "description": "",
@@ -20,13 +20,13 @@
     },
     {
       "name": "comment_number",
-      "type": "integer",
+      "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Deletes a comment on a team discussion. OAuth access tokens require the `write:discussion` [scope](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/).",
-  "idName": "delete-discussion-comment",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/teams/discussion_comments/#delete-a-comment"
 }

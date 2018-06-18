@@ -6,13 +6,13 @@
   "params": [
     {
       "name": "card_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-card",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/projects/cards/#get-a-project-card"
 }

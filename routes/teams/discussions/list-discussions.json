@@ -6,41 +6,13 @@
   "params": [
     {
       "name": "team_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "direction",
-      "type": "string",
-      "description": "Sorts the discussion comments by the date they were created. To return the oldest comments first, set to `asc`. Can be one of `asc` or `desc`.",
-      "default": "desc",
-      "required": false,
-      "enum": [
-        "asc",
-        "desc"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
     }
   ],
-  "description": "List all discussions on a team's page. OAuth access tokens require the `read:discussion` [scope](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/).",
-  "idName": "list-discussions",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/teams/discussions/#list-discussions"
 }

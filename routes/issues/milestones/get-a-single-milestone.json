@@ -27,6 +27,6 @@
     }
   ],
   "description": "",
-  "idName": "get-milestone",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/issues/milestones/#get-a-single-milestone"
 }

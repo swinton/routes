@@ -27,6 +27,6 @@
     }
   ],
   "description": "",
-  "idName": "remove-collaborator",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/collaborators/#remove-user-as-a-collaborator"
 }

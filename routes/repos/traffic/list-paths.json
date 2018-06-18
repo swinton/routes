@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "Get the top 10 popular contents over the last 14 days.",
-  "idName": "get-top-paths",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/traffic/#list-paths"
 }

@@ -20,13 +20,13 @@
     },
     {
       "name": "invitation_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "delete-invitation",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/invitations/#delete-a-repository-invitation"
 }

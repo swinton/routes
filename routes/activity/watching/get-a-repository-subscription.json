@@ -1,5 +1,5 @@
 {
-  "name": "Get a Repository Subscription",
+  "name": "Get a repository subscription",
   "enabledForApps": false,
   "method": "GET",
   "path": "/repos/:owner/:repo/subscription",
@@ -20,6 +20,6 @@
     }
   ],
   "description": "",
-  "idName": "get-repo-subscription",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/activity/watching/#get-a-repository-subscription"
 }

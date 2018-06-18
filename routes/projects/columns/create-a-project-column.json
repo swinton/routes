@@ -6,20 +6,13 @@
   "params": [
     {
       "name": "project_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "name",
-      "type": "string",
-      "description": "The name of the column.",
-      "required": true,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "create-column",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/projects/columns/#create-a-project-column"
 }

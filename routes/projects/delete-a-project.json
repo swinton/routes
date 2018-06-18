@@ -6,13 +6,13 @@
   "params": [
     {
       "name": "project_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "delete",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/projects/#delete-a-project"
 }

@@ -6,13 +6,13 @@
   "params": [
     {
       "name": "reaction_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "OAuth access tokens require the `write:discussion` [scope](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/), when deleting a [team discussion](https://developer.github.com/v3/teams/discussions/) or [team discussion comment](https://developer.github.com/v3/teams/discussion_comments/).",
-  "idName": "delete",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/reactions/#delete-a-reaction"
 }

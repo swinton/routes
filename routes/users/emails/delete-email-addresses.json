@@ -1,10 +1,12 @@
 {
-  "name": "Delete email address(es)",
+  "name": "Delete email addresses",
   "enabledForApps": false,
   "method": "DELETE",
   "path": "/user/emails",
-  "params": [],
-  "description": "You can include a single email address or an array of addresses:",
-  "idName": "delete-emails",
+  "params": [
+
+  ],
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/users/emails/#delete-email-addresses"
 }

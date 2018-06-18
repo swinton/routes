@@ -2,24 +2,31 @@
   "name": "Remove repository from installation",
   "enabledForApps": false,
   "method": "DELETE",
-  "path": "/user/installations/:installation_id/repositories/:repository_id",
+  "path": "/user/installations/:installation_id/repos/:owner/:repo",
   "params": [
     {
       "name": "installation_id",
+      "type": "integer",
+      "required": true,
+      "description": "",
+      "location": "url"
+    },
+    {
+      "name": "owner",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "repository_id",
+      "name": "repo",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Remove a single repository from an installation.\n\nThe authenticated user must have admin access to the repository.",
-  "idName": "remove-repo-from-installation",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/apps/installations/#remove-repository-from-installation"
 }

@@ -2,10 +2,10 @@
   "name": "Get an individual code of conduct",
   "enabledForApps": true,
   "method": "GET",
-  "path": "/codes_of_conduct/:key",
+  "path": "/codes_of_conduct/:code_of_conduct",
   "params": [
     {
-      "name": "key",
+      "name": "code_of_conduct",
       "type": "string",
       "required": true,
       "description": "",
@@ -13,6 +13,6 @@
     }
   ],
   "description": "",
-  "idName": "get-conduct-code",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/codes_of_conduct/#get-an-individual-code-of-conduct"
 }

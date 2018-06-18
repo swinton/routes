@@ -1,5 +1,5 @@
 {
-  "name": "Set a Repository Subscription",
+  "name": "Set a repository subscription",
   "enabledForApps": false,
   "method": "PUT",
   "path": "/repos/:owner/:repo/subscription",
@@ -17,23 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "subscribed",
-      "type": "boolean",
-      "description": "Determines if notifications should be received from this repository.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "ignored",
-      "type": "boolean",
-      "description": "Determines if all notifications should be blocked from this repository.",
-      "required": false,
-      "location": "body"
     }
   ],
-  "description": "If you would like to watch a repository, set `subscribed` to `true`. If you would like to ignore notifications made within a repository, set `ignored` to `true`. If you would like to stop watching a repository, [delete the repository's subscription](#delete-a-repository-subscription) completely.",
-  "idName": "set-repo-subscription",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/activity/watching/#set-a-repository-subscription"
 }

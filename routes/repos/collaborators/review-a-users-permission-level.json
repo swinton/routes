@@ -26,7 +26,7 @@
       "location": "url"
     }
   ],
-  "description": "Possible values for the `permission` key: `admin`, `write`, `read`, `none`.",
-  "idName": "get-collaborator-permission-level",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/collaborators/#review-a-users-permission-level"
 }

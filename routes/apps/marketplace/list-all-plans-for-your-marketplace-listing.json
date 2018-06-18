@@ -2,26 +2,11 @@
   "name": "List all plans for your Marketplace listing",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/marketplace_listing/plans",
+  "path": "/marketplace_listing/stubbed/plans",
   "params": [
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
-    }
+
   ],
   "description": "",
-  "idName": "list-plans",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/apps/marketplace/#list-all-plans-for-your-marketplace-listing"
 }

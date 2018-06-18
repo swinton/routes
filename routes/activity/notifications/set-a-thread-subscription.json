@@ -6,21 +6,13 @@
   "params": [
     {
       "name": "thread_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "ignored",
-      "type": "boolean",
-      "description": "Unsubscribes and subscribes you to a conversation. Set `ignored` to `true` to block all notifications from this thread.",
-      "default": false,
-      "required": false,
-      "location": "body"
     }
   ],
-  "description": "This lets you subscribe or unsubscribe from a conversation.",
-  "idName": "set-thread-subscription",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/activity/notifications/#set-a-thread-subscription"
 }

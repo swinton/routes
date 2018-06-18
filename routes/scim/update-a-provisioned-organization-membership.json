@@ -2,24 +2,24 @@
   "name": "Update a provisioned organization membership",
   "enabledForApps": false,
   "method": "PUT",
-  "path": "/scim/v2/organizations/:organization/users/:user_id",
+  "path": "/scim/v2/orgs/:org/Users/:external_identity_guid",
   "params": [
     {
-      "name": "organization",
+      "name": "org",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "user_id",
-      "type": "string",
+      "name": "external_identity_guid",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "**Note:** Setting `active: false` removes the user from the organization, deletes the external identity, and deletes the associated `:id`.",
-  "idName": "update-provisioned-org-membership",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/scim/#update-a-provisioned-organization-membership"
 }

@@ -2,38 +2,17 @@
   "name": "Get a list of provisioned identities",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/scim/v2/organizations/:organization/Users",
+  "path": "/scim/v2/orgs/:org/Users",
   "params": [
     {
-      "name": "organization",
+      "name": "org",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "startIndex",
-      "type": "integer",
-      "description": "Used for pagination: the index of the first result to return",
-      "required": false,
-      "location": "query"
-    },
-    {
-      "name": "count",
-      "type": "integer",
-      "description": "Used for pagination: the number of results to return",
-      "required": false,
-      "location": "query"
-    },
-    {
-      "name": "filter",
-      "type": "string",
-      "description": "Only `eq` type filters are supported",
-      "required": false,
-      "location": "query"
     }
   ],
-  "description": "**Filter parameter**\n\nYou can filter results with the `id`, `userName`, `emails` and `external_id` query parameters.\n\n```\nGET /scim/v2/organizations/:organization/Users?filter=userName\n```\n\nRetrieves a paginated list of all provisioned organization members, including pending invitations.",
-  "idName": "get-provisioned-identities",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/scim/#get-a-list-of-provisioned-identities"
 }

@@ -2,17 +2,17 @@
   "name": "Get your organization membership",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/user/memberships/orgs/:org",
+  "path": "/user/memberships/organizations/:organziation_id",
   "params": [
     {
-      "name": "org",
-      "type": "string",
+      "name": "organziation_id",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-membership",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/orgs/members/#get-your-organization-membership"
 }

@@ -24,23 +24,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "reviewers",
-      "type": "string[]",
-      "description": "An array of user `login`s that will be requested.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "team_reviewers",
-      "type": "string[]",
-      "description": "An array of team `slug`s that will be requested.",
-      "required": false,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "create-review-request",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/pulls/review_requests/#create-a-review-request"
 }

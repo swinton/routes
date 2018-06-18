@@ -2,10 +2,10 @@
   "name": "Unstar a repository",
   "enabledForApps": false,
   "method": "DELETE",
-  "path": "/user/starred/:owner/:repo",
+  "path": "/user/starred/:user/:repo",
   "params": [
     {
-      "name": "owner",
+      "name": "user",
       "type": "string",
       "required": true,
       "description": "",
@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "Requires for the user to be authenticated.",
-  "idName": "unstar-repo",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/activity/starring/#unstar-a-repository"
 }

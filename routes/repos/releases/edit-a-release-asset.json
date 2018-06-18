@@ -20,27 +20,13 @@
     },
     {
       "name": "asset_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "name",
-      "type": "string",
-      "description": "The file name of the asset.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "label",
-      "type": "string",
-      "description": "An alternate short description of the asset. Used in place of the filename.",
-      "required": false,
-      "location": "body"
     }
   ],
-  "description": "Users with push access to the repository can edit a release asset.",
-  "idName": "edit-release-asset",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/releases/#edit-a-release-asset"
 }

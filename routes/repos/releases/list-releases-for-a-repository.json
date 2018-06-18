@@ -17,25 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
     }
   ],
-  "description": "This returns a list of releases, which does not include regular Git tags that have not been associated with a release. To get a list of Git tags, use the [Repository Tags API](https://developer.github.com/v3/repos/#list-tags).\n\nInformation about published releases are available to everyone. Only users with push access will receive listings for draft releases.",
-  "idName": "list-releases",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/releases/#list-releases-for-a-repository"
 }

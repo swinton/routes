@@ -12,7 +12,7 @@
       "location": "url"
     }
   ],
-  "description": "Enables an authenticated GitHub App to find the user’s installation information.",
-  "idName": "find-user-installation",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/apps/#find-user-installation"
 }

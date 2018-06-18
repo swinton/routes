@@ -2,10 +2,10 @@
   "name": "Unblock a user",
   "enabledForApps": false,
   "method": "DELETE",
-  "path": "/user/blocks/:username",
+  "path": "/user/blocks/:user",
   "params": [
     {
-      "name": "username",
+      "name": "user",
       "type": "string",
       "required": true,
       "description": "",
@@ -13,6 +13,6 @@
     }
   ],
   "description": "",
-  "idName": "unblock",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/users/blocking/#unblock-a-user"
 }

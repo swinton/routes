@@ -6,13 +6,13 @@
   "params": [
     {
       "name": "gist_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Note that you'll need to set `Content-Length` to zero when calling out to this endpoint. For more information, see \"[HTTP verbs](https://developer.github.com/v3/#http-verbs).\"",
-  "idName": "star",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/gists/#star-a-gist"
 }

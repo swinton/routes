@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "The `parent` and `source` objects are present when the repository is a fork. `parent` is the repository this repository was forked from, `source` is the ultimate source for the network.",
-  "idName": "get",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/#get"
 }

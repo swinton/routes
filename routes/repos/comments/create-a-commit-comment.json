@@ -24,37 +24,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "body",
-      "type": "string",
-      "description": "The contents of the comment.",
-      "required": true,
-      "location": "body"
-    },
-    {
-      "name": "path",
-      "type": "string",
-      "description": "Relative path of the file to comment on.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "position",
-      "type": "integer",
-      "description": "Line index in the diff to comment on.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "line",
-      "type": "integer",
-      "description": "**Deprecated**. Use **position** parameter instead. Line number in the file to comment on.",
-      "required": false,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "create-commit-comment",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/comments/#create-a-commit-comment"
 }

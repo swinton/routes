@@ -2,17 +2,17 @@
   "name": "Provision and invite users",
   "enabledForApps": false,
   "method": "POST",
-  "path": "/scim/v2/organizations/:organization/Users",
+  "path": "/scim/v2/orgs/:org/Users",
   "params": [
     {
-      "name": "organization",
+      "name": "org",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Provision organization membership for and send activation emails to a list of email addresses.",
-  "idName": "provision-and-invite-users",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/scim/#provision-and-invite-users"
 }

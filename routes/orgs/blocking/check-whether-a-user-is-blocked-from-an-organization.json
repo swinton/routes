@@ -2,7 +2,7 @@
   "name": "Check whether a user is blocked from an organization",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/orgs/:org/blocks/:username",
+  "path": "/orgs/:org/blocks/:user",
   "params": [
     {
       "name": "org",
@@ -12,14 +12,14 @@
       "location": "url"
     },
     {
-      "name": "username",
+      "name": "user",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "If the user is blocked:\n\nIf the user is not blocked:",
-  "idName": "check-blocked-user",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/orgs/blocking/#check-whether-a-user-is-blocked-from-an-organization"
 }

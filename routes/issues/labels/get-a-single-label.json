@@ -27,6 +27,6 @@
     }
   ],
   "description": "",
-  "idName": "get-label",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/issues/labels/#get-a-single-label"
 }

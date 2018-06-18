@@ -17,39 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "sort",
-      "type": "string",
-      "description": "Either `created` or `updated`.",
-      "default": "created",
-      "required": false,
-      "enum": [
-        "created",
-        "updated"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "direction",
-      "type": "string",
-      "description": "Either `asc` or `desc`. Ignored without the `sort` parameter.",
-      "required": false,
-      "enum": [
-        "asc",
-        "desc"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "since",
-      "type": "string",
-      "description": "Only comments updated at or after this time are returned. This is a timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`.",
-      "required": false,
-      "location": "query"
     }
   ],
-  "description": "By default, Issue Comments are ordered by ascending ID.",
-  "idName": "list-comments-for-repo",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/issues/comments/#list-comments-in-a-repository"
 }

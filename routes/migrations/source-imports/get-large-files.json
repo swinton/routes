@@ -1,6 +1,6 @@
 {
   "name": "Get large files",
-  "enabledForApps": true,
+  "enabledForApps": false,
   "method": "GET",
   "path": "/repos/:owner/:repo/import/large_files",
   "params": [
@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "List files larger than 100MB found during the import",
-  "idName": "get-large-files",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/migrations/source_imports/#get-large-files"
 }

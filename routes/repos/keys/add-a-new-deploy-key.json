@@ -17,30 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "title",
-      "type": "string",
-      "description": "A name for the key.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "key",
-      "type": "string",
-      "description": "The contents of the key.",
-      "required": true,
-      "location": "body"
-    },
-    {
-      "name": "read_only",
-      "type": "boolean",
-      "description": "If `true`, the key will only be able to read repository contents. Otherwise, the key will be able to read and write.",
-      "required": false,
-      "location": "body"
     }
   ],
-  "description": "Here's how you can create a read-only deploy key:\n\n",
-  "idName": "add-deploy-key",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/keys/#add-a-new-deploy-key"
 }

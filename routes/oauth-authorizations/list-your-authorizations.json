@@ -4,24 +4,9 @@
   "method": "GET",
   "path": "/authorizations",
   "params": [
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
-    }
+
   ],
   "description": "",
-  "idName": "list-authorizations",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/oauth_authorizations/#list-your-authorizations"
 }

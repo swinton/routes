@@ -13,7 +13,7 @@
     },
     {
       "name": "migration_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
@@ -26,7 +26,7 @@
       "location": "url"
     }
   ],
-  "description": "Unlocks a repository that was locked for migration. You should unlock each migrated repository and [delete them](https://developer.github.com/v3/repos/#delete-a-repository) when the migration is complete and you no longer need the source data.",
-  "idName": "unlock-repo-for-org",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/migrations/orgs/#unlock-a-repository"
 }

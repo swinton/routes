@@ -1,9 +1,8 @@
 {
-  "name": "Get a Reference",
+  "name": "Get a reference",
   "enabledForApps": true,
   "method": "GET",
   "path": "/repos/:owner/:repo/git/refs/:ref",
-  "description": "Returns a branch or tag reference. Other than the [REST API](https://developer.github.com/v3/git/refs/#get-a-reference) it always returns a single reference. If the REST API returns with an array then the method responds with an error.",
   "params": [
     {
       "name": "owner",
@@ -22,12 +21,12 @@
     {
       "name": "ref",
       "type": "string",
-      "description": "Must be formatted as `heads/branch`, not just `branch`",
       "required": true,
+      "description": "",
       "location": "url"
     }
   ],
-  "isOverride": true,
-  "idName": "get-ref",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/git/refs/#get-a-reference"
 }

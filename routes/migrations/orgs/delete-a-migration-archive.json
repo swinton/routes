@@ -13,13 +13,13 @@
     },
     {
       "name": "migration_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Deletes a previous migration archive. Migration archives are automatically deleted after seven days.",
-  "idName": "delete-archive-for-org",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/migrations/orgs/#delete-a-migration-archive"
 }

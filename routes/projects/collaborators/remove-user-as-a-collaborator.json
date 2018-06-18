@@ -6,7 +6,7 @@
   "params": [
     {
       "name": "project_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "Removes a collaborator from an organization project. You must be an organization owner or a project `admin` to remove a collaborator.",
-  "idName": "remove-collaborator",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/projects/collaborators/#remove-user-as-a-collaborator"
 }

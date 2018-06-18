@@ -2,24 +2,24 @@
   "name": "Get a single discussion",
   "enabledForApps": true,
   "method": "GET",
-  "path": "/teams/:team_id/discussions/:discussion_number",
+  "path": "/teams/:team_id/discussions/:number",
   "params": [
     {
       "name": "team_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "discussion_number",
+      "name": "number",
       "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Get a specific discussion on a team's page. OAuth access tokens require the `read:discussion` [scope](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/).",
-  "idName": "get-discussion",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/teams/discussions/#get-a-single-discussion"
 }

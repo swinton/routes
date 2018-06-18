@@ -27,13 +27,13 @@
     },
     {
       "name": "review_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-review",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/pulls/reviews/#get-a-single-review"
 }

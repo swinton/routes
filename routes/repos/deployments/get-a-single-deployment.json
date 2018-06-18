@@ -20,13 +20,13 @@
     },
     {
       "name": "deployment_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "\n\n**Note:** If a user created a deployment via a GitHub App, the `performed_via_github_app` key will contain information on that GitHub App.",
-  "idName": "get-deployment",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/deployments/#get-a-single-deployment"
 }

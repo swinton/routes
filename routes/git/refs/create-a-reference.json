@@ -17,23 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "ref",
-      "type": "string",
-      "description": "The name of the fully qualified reference (ie: `refs/heads/master`). If it doesn't start with 'refs' and have at least two slashes, it will be rejected.",
-      "required": true,
-      "location": "body"
-    },
-    {
-      "name": "sha",
-      "type": "string",
-      "description": "The SHA1 value for this reference.",
-      "required": true,
-      "location": "body"
     }
   ],
-  "description": "Creates a reference for your repository. You are unable to create new references for empty repositories, even if the commit SHA-1 hash used exists. Empty repositories are repositories without branches.",
-  "idName": "create-ref",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/git/refs/#create-a-reference"
 }

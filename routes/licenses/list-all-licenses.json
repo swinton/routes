@@ -3,8 +3,10 @@
   "enabledForApps": true,
   "method": "GET",
   "path": "/licenses",
-  "params": [],
+  "params": [
+
+  ],
   "description": "",
-  "idName": "list",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/licenses/#list-all-licenses"
 }

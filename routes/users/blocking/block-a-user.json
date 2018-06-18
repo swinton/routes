@@ -2,10 +2,10 @@
   "name": "Block a user",
   "enabledForApps": false,
   "method": "PUT",
-  "path": "/user/blocks/:username",
+  "path": "/user/blocks/:user",
   "params": [
     {
-      "name": "username",
+      "name": "user",
       "type": "string",
       "required": true,
       "description": "",
@@ -13,6 +13,6 @@
     }
   ],
   "description": "",
-  "idName": "block",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/users/blocking/#block-a-user"
 }

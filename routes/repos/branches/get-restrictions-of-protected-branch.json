@@ -26,7 +26,7 @@
       "location": "url"
     }
   ],
-  "description": "**Note**: Teams and users `restrictions` are only available for organization-owned repositories.",
-  "idName": "get-protected-branch-restrictions",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/branches/#get-restrictions-of-protected-branch"
 }

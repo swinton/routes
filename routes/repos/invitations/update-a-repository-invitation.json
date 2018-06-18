@@ -20,25 +20,13 @@
     },
     {
       "name": "invitation_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "permissions",
-      "type": "string",
-      "description": "The permissions that the associated user will have on the repository. Valid values are `read`, `write`, and `admin`.",
-      "required": false,
-      "enum": [
-        "read",
-        "write",
-        "admin"
-      ],
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "update-invitation",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/invitations/#update-a-repository-invitation"
 }

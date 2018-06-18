@@ -6,20 +6,13 @@
   "params": [
     {
       "name": "gist_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "body",
-      "type": "string",
-      "description": "The comment text.",
-      "required": true,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "create-comment",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/gists/comments/#create-a-comment"
 }

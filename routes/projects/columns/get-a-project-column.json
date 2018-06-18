@@ -6,13 +6,13 @@
   "params": [
     {
       "name": "column_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-column",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/projects/columns/#get-a-project-column"
 }

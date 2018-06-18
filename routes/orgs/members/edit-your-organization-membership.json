@@ -10,19 +10,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "state",
-      "type": "string",
-      "description": "The state that the membership should be in. Only `\"active\"` will be accepted.",
-      "required": true,
-      "enum": [
-        "active"
-      ],
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "edit-membership",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/orgs/members/#edit-your-organization-membership"
 }

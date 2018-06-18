@@ -20,13 +20,13 @@
     },
     {
       "name": "key_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-deploy-key",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/keys/#get-a-deploy-key"
 }

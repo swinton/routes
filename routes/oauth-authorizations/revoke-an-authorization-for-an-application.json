@@ -2,24 +2,24 @@
   "name": "Revoke an authorization for an application",
   "enabledForApps": false,
   "method": "DELETE",
-  "path": "/applications/:client_id/tokens/:access_token",
+  "path": "/applications/:key/tokens/:token",
   "params": [
     {
-      "name": "client_id",
+      "name": "key",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "access_token",
+      "name": "token",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "OAuth application owners can revoke a single token for an OAuth application. You must use [Basic Authentication](https://developer.github.com/v3/auth#basic-authentication) for this method, where the username is the OAuth application `client_id` and the password is its `client_secret`.",
-  "idName": "revoke-authorization-for-application",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/oauth_authorizations/#revoke-an-authorization-for-an-application"
 }

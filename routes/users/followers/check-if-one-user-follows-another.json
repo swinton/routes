@@ -20,6 +20,6 @@
     }
   ],
   "description": "",
-  "idName": "check-following-for-user",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/users/followers/#check-if-one-user-follows-another"
 }

@@ -20,36 +20,13 @@
     },
     {
       "name": "deployment_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "id",
-      "type": "integer",
-      "description": "The deployment ID to list the statuses from.",
-      "required": true,
-      "location": "query"
-    },
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
     }
   ],
-  "description": "Users with pull access can view deployment statuses for a deployment:",
-  "idName": "list-deployment-statuses",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/deployments/#list-deployment-statuses"
 }

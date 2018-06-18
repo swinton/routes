@@ -2,7 +2,7 @@
   "name": "Get a tag",
   "enabledForApps": true,
   "method": "GET",
-  "path": "/repos/:owner/:repo/git/tags/:tag_sha",
+  "path": "/repos/:owner/:repo/git/tags/:tag_id",
   "params": [
     {
       "name": "owner",
@@ -19,14 +19,14 @@
       "location": "url"
     },
     {
-      "name": "tag_sha",
-      "type": "string",
+      "name": "tag_id",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-tag",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/git/tags/#get-a-tag"
 }

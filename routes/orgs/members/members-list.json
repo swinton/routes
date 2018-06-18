@@ -1,6 +1,6 @@
 {
   "name": "Members list",
-  "enabledForApps": true,
+  "enabledForApps": false,
   "method": "GET",
   "path": "/orgs/:org/members",
   "params": [
@@ -10,50 +10,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "filter",
-      "type": "string",
-      "description": "Filter members returned in the list. Can be one of:  \n\\* `2fa_disabled` \\- Members without [two-factor authentication](https://github.com/blog/1614-two-factor-authentication) enabled. Available for organization owners.  \n\\* `all` \\- All members the authenticated user can see.",
-      "default": "all",
-      "required": false,
-      "enum": [
-        "2fa_disabled",
-        "all"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "role",
-      "type": "string",
-      "description": "Filter members returned by their role. Can be one of:  \n\\* `all` \\- All members of the organization, regardless of role.  \n\\* `admin` \\- Organization owners.  \n\\* `member` \\- Non-owner organization members.",
-      "default": "all",
-      "required": false,
-      "enum": [
-        "all",
-        "admin",
-        "member"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
     }
   ],
-  "description": "List all users who are members of an organization. If the authenticated user is also a member of this organization then both concealed and public members will be returned.\n\n",
-  "idName": "list-members",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/orgs/members/#members-list"
 }

@@ -24,42 +24,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "title",
-      "type": "string",
-      "description": "The title of the milestone.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "state",
-      "type": "string",
-      "description": "The state of the milestone. Either `open` or `closed`.",
-      "default": "open",
-      "required": false,
-      "enum": [
-        "open",
-        "closed"
-      ],
-      "location": "body"
-    },
-    {
-      "name": "description",
-      "type": "string",
-      "description": "A description of the milestone.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "due_on",
-      "type": "string",
-      "description": "The milestone due date. This is a timestamp in ISO 8601 format: `YYYY-MM-DDTHH:MM:SSZ`.",
-      "required": false,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "update-milestone",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/issues/milestones/#update-a-milestone"
 }

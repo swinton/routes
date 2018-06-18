@@ -2,24 +2,24 @@
   "name": "Get provisioning details for a single user",
   "enabledForApps": false,
   "method": "GET",
-  "path": "/scim/v2/organizations/:organization/users/:user_id",
+  "path": "/scim/v2/orgs/:org/Users/:external_identity_guid",
   "params": [
     {
-      "name": "organization",
+      "name": "org",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "user_id",
-      "type": "string",
+      "name": "external_identity_guid",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
   "description": "",
-  "idName": "get-provisioning-details-for-user",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/scim/#get-provisioning-details-for-a-single-user"
 }

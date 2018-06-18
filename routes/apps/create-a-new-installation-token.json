@@ -1,18 +1,18 @@
 {
   "name": "Create a new installation token",
-  "enabledForApps": true,
+  "enabledForApps": false,
   "method": "POST",
   "path": "/installations/:installation_id/access_tokens",
   "params": [
     {
       "name": "installation_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Creates an access token that enables a GitHub App to make authenticated API requests for the app's installation on an organization or individual account. Installation tokens expire one hour from the time you create them. Using an expired token produces a status code of `401 - Unauthorized`, and requires creating a new installation token.",
-  "idName": "create-installation-token",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/apps/#create-a-new-installation-token"
 }

@@ -2,24 +2,31 @@
   "name": "Add repository to installation",
   "enabledForApps": false,
   "method": "PUT",
-  "path": "/user/installations/:installation_id/repositories/:repository_id",
+  "path": "/user/installations/:installation_id/repos/:owner/:repo",
   "params": [
     {
       "name": "installation_id",
+      "type": "integer",
+      "required": true,
+      "description": "",
+      "location": "url"
+    },
+    {
+      "name": "owner",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "repository_id",
+      "name": "repo",
       "type": "string",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Add a single repository to an installation.\n\nThe authenticated user must have admin access to the repository.",
-  "idName": "add-repo-to-installation",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/apps/installations/#add-repository-to-installation"
 }

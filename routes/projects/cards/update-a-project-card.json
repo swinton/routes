@@ -6,20 +6,13 @@
   "params": [
     {
       "name": "card_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "note",
-      "type": "string",
-      "description": "The card's note content. Only valid for cards without another type of content, so this cannot be specified if the card already has a `content_id` and `content_type`.",
-      "required": false,
-      "location": "body"
     }
   ],
   "description": "",
-  "idName": "update-card",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/projects/cards/#update-a-project-card"
 }

@@ -20,28 +20,13 @@
     },
     {
       "name": "comment_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "content",
-      "type": "string",
-      "description": "The [reaction type](https://developer.github.com/v3/reactions/#reaction-types) to add to the issue comment.",
-      "required": true,
-      "enum": [
-        "+1",
-        "-1",
-        "laugh",
-        "confused",
-        "heart",
-        "hooray"
-      ],
-      "location": "body"
     }
   ],
-  "description": "Create a reaction to an [issue comment](https://developer.github.com/v3/issues/comments/). A response with a `Status: 200 OK` means that you already added the reaction type to this issue comment.",
-  "idName": "create-for-issue-comment",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/reactions/#create-reaction-for-an-issue-comment"
 }

@@ -24,23 +24,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "strict",
-      "type": "boolean",
-      "description": "Require branches to be up to date before merging.",
-      "required": false,
-      "location": "body"
-    },
-    {
-      "name": "contexts",
-      "type": "string[]",
-      "description": "The list of status checks to require in order to merge into this branch",
-      "required": false,
-      "location": "body"
     }
   ],
-  "description": "Updating required status checks requires admin or owner permissions to the repository and branch protection to be enabled.",
-  "idName": "update-protected-branch-required-status-checks",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/branches/#update-required-status-checks-of-protected-branch"
 }

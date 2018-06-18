@@ -27,6 +27,6 @@
     }
   ],
   "description": "",
-  "idName": "remove-branch-protection",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/branches/#remove-branch-protection"
 }

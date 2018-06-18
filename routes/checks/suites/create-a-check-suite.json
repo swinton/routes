@@ -17,23 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "head_sha",
-      "type": "string",
-      "description": "The sha of the head commit.",
-      "required": true,
-      "location": "body"
-    },
-    {
-      "name": "head_branch",
-      "type": "string",
-      "description": "The name of the head branch where the code changes are implemented.",
-      "required": false,
-      "location": "body"
     }
   ],
-  "description": "By default, check suites are automatically created when you create a [check run](https://developer.github.com/v3/checks/runs/). You only need to use this endpoint for manually creating check suites when you've disabled automatic creation using \"[Set preferences for check suites on a repository](https://developer.github.com/v3/checks/suites/#set-preferences-for-check-suites-on-a-repository)\". Your GitHub App must have the `checks:write` permission to create check suites.",
-  "idName": "create-suite",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/checks/suites/#create-a-check-suite"
 }

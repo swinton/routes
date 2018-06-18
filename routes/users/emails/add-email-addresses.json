@@ -1,10 +1,12 @@
 {
-  "name": "Add email address(es)",
+  "name": "Add email addresses",
   "enabledForApps": false,
   "method": "POST",
   "path": "/user/emails",
-  "params": [],
-  "description": "You can post a single email address or an array of addresses:",
-  "idName": "add-emails",
+  "params": [
+
+  ],
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/users/emails/#add-email-addresses"
 }

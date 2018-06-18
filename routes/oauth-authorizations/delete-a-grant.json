@@ -6,13 +6,13 @@
   "params": [
     {
       "name": "grant_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Deleting an OAuth application's grant will also delete all OAuth tokens associated with the application for your user. Once deleted, the application has no access to your account and is no longer listed on [the application authorizations settings screen within GitHub](https://github.com/settings/applications#authorized).",
-  "idName": "delete-grant",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/oauth_authorizations/#delete-a-grant"
 }

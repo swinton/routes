@@ -20,27 +20,20 @@
     },
     {
       "name": "deployment_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     },
     {
-      "name": "id",
-      "type": "integer",
-      "description": "The deployment ID to list the statuses from.",
-      "required": true,
-      "location": "query"
-    },
-    {
       "name": "status_id",
       "type": "integer",
-      "description": "The deployment status ID.",
       "required": true,
+      "description": "",
       "location": "url"
     }
   ],
-  "description": "Users with pull access can view a deployment status for a deployment:\n\n\n\n**Note:** If a user created a deployment status via a GitHub App, the `performed_via_github_app` key will contain information on that GitHub App.",
-  "idName": "get-deployment-status",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/deployments/#get-a-single-deployment-status"
 }

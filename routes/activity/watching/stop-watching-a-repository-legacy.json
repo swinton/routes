@@ -1,11 +1,11 @@
 {
-  "name": "Stop watching a repository (LEGACY)",
+  "name": "Stop watching a repository legacy",
   "enabledForApps": false,
   "method": "DELETE",
-  "path": "/user/subscriptions/:owner/:repo",
+  "path": "/user/subscriptions/:user/:repo",
   "params": [
     {
-      "name": "owner",
+      "name": "user",
       "type": "string",
       "required": true,
       "description": "",
@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "Requires for the user to be authenticated.",
-  "idName": "stop-watching-repo-legacy",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/activity/watching/#stop-watching-a-repository-legacy"
 }

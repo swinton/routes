@@ -17,78 +17,9 @@
       "required": true,
       "description": "",
       "location": "url"
-    },
-    {
-      "name": "state",
-      "type": "string",
-      "description": "Either `open`, `closed`, or `all` to filter by state.",
-      "default": "open",
-      "required": false,
-      "enum": [
-        "open",
-        "closed",
-        "all"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "head",
-      "type": "string",
-      "description": "Filter pulls by head user and branch name in the format of `user:ref-name`. Example: `github:new-script-format`.",
-      "required": false,
-      "location": "query"
-    },
-    {
-      "name": "base",
-      "type": "string",
-      "description": "Filter pulls by base branch name. Example: `gh-pages`.",
-      "required": false,
-      "location": "query"
-    },
-    {
-      "name": "sort",
-      "type": "string",
-      "description": "What to sort results by. Can be either `created`, `updated`, `popularity` (comment count) or `long-running` (age, filtering by pulls updated in the last month).",
-      "default": "created",
-      "required": false,
-      "enum": [
-        "created",
-        "updated",
-        "popularity",
-        "long-running"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "direction",
-      "type": "string",
-      "description": "The direction of the sort. Can be either `asc` or `desc`.",
-      "default": "`desc` when sort is `created` or sort is not specified, otherwise `asc`",
-      "required": false,
-      "enum": [
-        "asc",
-        "desc"
-      ],
-      "location": "query"
-    },
-    {
-      "name": "per_page",
-      "type": "integer",
-      "required": false,
-      "description": "Results per page (max 100)",
-      "default": 30,
-      "location": "query"
-    },
-    {
-      "name": "page",
-      "type": "integer",
-      "required": false,
-      "description": "Page number of the results to fetch.",
-      "default": 1,
-      "location": "query"
     }
   ],
   "description": "",
-  "idName": "list",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/pulls/#list-pull-requests"
 }

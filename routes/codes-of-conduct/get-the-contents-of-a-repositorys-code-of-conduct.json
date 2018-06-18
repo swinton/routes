@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "This method returns the contents of the repository's code of conduct file, if one is detected.",
-  "idName": "get-for-repo",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/codes_of_conduct/#get-the-contents-of-a-repositorys-code-of-conduct"
 }

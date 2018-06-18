@@ -20,13 +20,13 @@
     },
     {
       "name": "release_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Users with push access to the repository can delete a release.",
-  "idName": "delete-release",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/repos/releases/#delete-a-release"
 }

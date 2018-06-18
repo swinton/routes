@@ -6,13 +6,13 @@
   "params": [
     {
       "name": "thread_id",
-      "type": "string",
+      "type": "integer",
       "required": true,
       "description": "",
       "location": "url"
     }
   ],
-  "description": "Mutes all future notifications for a conversation until you comment on the thread or get **@mention**ed.",
-  "idName": "delete-thread-subscription",
+  "description": "",
+  "idName": "",
   "documentationUrl": "https://developer.github.com/v3/activity/notifications/#delete-a-thread-subscription"
 }

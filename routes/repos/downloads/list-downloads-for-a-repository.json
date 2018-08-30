@@ -57,5 +57,5 @@
     }
   ],
   "idName": "list-downloads",
-  "documentationUrl": "https://developer.github.com/v3/repos/downloads/#list-downloads-for-a-repository"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/downloads/#list-downloads-for-a-repository"
 }

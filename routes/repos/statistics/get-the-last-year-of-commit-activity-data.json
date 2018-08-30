@@ -44,5 +44,5 @@
     }
   ],
   "idName": "get-commit-activity-stats",
-  "documentationUrl": "https://developer.github.com/v3/repos/statistics/#get-the-last-year-of-commit-activity-data"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/statistics/#get-the-last-year-of-commit-activity-data"
 }

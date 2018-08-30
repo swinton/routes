@@ -54,5 +54,5 @@
     }
   ],
   "idName": "create-blob",
-  "documentationUrl": "https://developer.github.com/v3/git/blobs/#create-a-blob"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/git/blobs/#create-a-blob"
 }

@@ -51,5 +51,5 @@
     }
   ],
   "idName": "set-repo-subscription",
-  "documentationUrl": "https://developer.github.com/v3/activity/watching/#set-a-repository-subscription"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/activity/watching/#set-a-repository-subscription"
 }

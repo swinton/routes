@@ -36,5 +36,5 @@
     }
   ],
   "idName": "delete-milestone",
-  "documentationUrl": "https://developer.github.com/v3/issues/milestones/#delete-a-milestone"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/issues/milestones/#delete-a-milestone"
 }

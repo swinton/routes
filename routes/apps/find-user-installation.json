@@ -12,7 +12,7 @@
       "location": "url"
     }
   ],
-  "description": "Enables an authenticated GitHub App to find the user’s installation information.\n\nYou must use a [JWT](https://developer.github.com/apps/building-github-apps/authenticating-with-github-apps/#authenticating-as-a-github-app) to access this endpoint.",
+  "description": "Enables an authenticated GitHub App to find the user’s installation information.\n\nYou must use a [JWT](/enterprise/2.12/apps/building-github-apps/authenticating-with-github-apps/#authenticating-as-a-github-app) to access this endpoint.",
   "responses": [
     {
       "headers": {
@@ -24,7 +24,6 @@
         "account": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -63,5 +62,5 @@
     }
   ],
   "idName": "find-user-installation",
-  "documentationUrl": "https://developer.github.com/v3/apps/#find-user-installation"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/apps/#find-user-installation"
 }

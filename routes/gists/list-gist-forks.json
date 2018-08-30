@@ -40,7 +40,6 @@
           "user": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -66,5 +65,5 @@
     }
   ],
   "idName": "list-forks",
-  "documentationUrl": "https://developer.github.com/v3/gists/#list-gist-forks"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/gists/#list-gist-forks"
 }

@@ -14,5 +14,5 @@
   ],
   "description": "",
   "idName": "get-column",
-  "documentationUrl": "https://developer.github.com/v3/projects/columns/#get-a-project-column"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/projects/columns/#get-a-project-column"
 }

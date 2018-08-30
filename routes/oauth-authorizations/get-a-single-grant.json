@@ -36,5 +36,5 @@
     }
   ],
   "idName": "get-grant",
-  "documentationUrl": "https://developer.github.com/v3/oauth_authorizations/#get-a-single-grant"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/oauth_authorizations/#get-a-single-grant"
 }

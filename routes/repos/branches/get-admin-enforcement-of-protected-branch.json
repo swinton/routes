@@ -28,5 +28,5 @@
   ],
   "description": "",
   "idName": "get-protected-branch-admin-enforcement",
-  "documentationUrl": "https://developer.github.com/v3/repos/branches/#get-admin-enforcement-of-protected-branch"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/branches/#get-admin-enforcement-of-protected-branch"
 }

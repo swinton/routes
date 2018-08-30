@@ -28,5 +28,5 @@
   ],
   "description": "Disables the ability to restrict who can push to this branch.",
   "idName": "remove-protected-branch-restrictions",
-  "documentationUrl": "https://developer.github.com/v3/repos/branches/#remove-restrictions-of-protected-branch"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/branches/#remove-restrictions-of-protected-branch"
 }

@@ -65,5 +65,5 @@
     }
   ],
   "idName": "list-hooks",
-  "documentationUrl": "https://developer.github.com/v3/repos/hooks/#list-hooks"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/hooks/#list-hooks"
 }

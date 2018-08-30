@@ -10,7 +10,7 @@
       "support@github.com"
     ]
   ],
-  "description": "You can include a single email address or an array of addresses:",
+  "description": "If your GitHub Enterprise appliance has [LDAP Sync enabled](https://help.github.com/enterprise/admin/guides/user-management/using-ldap) and the option to synchronize emails enabled, this API is disabled and will return a `403` response. Users managed in LDAP won't be able to remove an email address via the API with these options enabled.\n\nYou can include a single email address or an array of addresses:",
   "responses": [
     {
       "headers": {
@@ -20,5 +20,5 @@
     }
   ],
   "idName": "delete-emails",
-  "documentationUrl": "https://developer.github.com/v3/users/emails/#delete-email-addresses"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/users/emails/#delete-email-addresses"
 }

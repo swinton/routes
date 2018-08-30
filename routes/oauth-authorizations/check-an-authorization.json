@@ -19,7 +19,7 @@
       "location": "url"
     }
   ],
-  "description": "OAuth applications can use a special API method for checking OAuth token validity without running afoul of normal rate limits for failed login attempts. Authentication works differently with this particular endpoint. You must use [Basic Authentication](https://developer.github.com/v3/auth#basic-authentication) when accessing it, where the username is the OAuth application `client_id` and the password is its `client_secret`. Invalid tokens will return `404 NOT FOUND`.",
+  "description": "OAuth applications can use a special API method for checking OAuth token validity without running afoul of normal rate limits for failed login attempts. Authentication works differently with this particular endpoint. You must use [Basic Authentication](/enterprise/2.12/v3/auth#basic-authentication) when accessing it, where the username is the OAuth application `client_id` and the password is its `client_secret`. Invalid tokens will return `404 NOT FOUND`.",
   "responses": [
     {
       "headers": {
@@ -48,7 +48,6 @@
         "user": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -69,5 +68,5 @@
     }
   ],
   "idName": "check-authorization",
-  "documentationUrl": "https://developer.github.com/v3/oauth_authorizations/#check-an-authorization"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/oauth_authorizations/#check-an-authorization"
 }

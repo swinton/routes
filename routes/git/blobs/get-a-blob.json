@@ -43,5 +43,5 @@
     }
   ],
   "idName": "get-blob",
-  "documentationUrl": "https://developer.github.com/v3/git/blobs/#get-a-blob"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/git/blobs/#get-a-blob"
 }

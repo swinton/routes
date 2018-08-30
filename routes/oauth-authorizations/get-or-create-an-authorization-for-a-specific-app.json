@@ -42,7 +42,7 @@
     {
       "name": "fingerprint",
       "type": "string",
-      "description": "A unique string to distinguish an authorization from others created for the same client and user. If provided, this API is functionally equivalent to [Get-or-create an authorization for a specific app and fingerprint](https://developer.github.com/v3/oauth_authorizations/#get-or-create-an-authorization-for-a-specific-app-and-fingerprint).",
+      "description": "A unique string to distinguish an authorization from others created for the same client and user. If provided, this API is functionally equivalent to [Get-or-create an authorization for a specific app and fingerprint](/enterprise/2.12/v3/oauth_authorizations/#get-or-create-an-authorization-for-a-specific-app-and-fingerprint).",
       "required": false,
       "location": "body"
     }
@@ -58,5 +58,5 @@
   ],
   "description": "This method will create a new authorization for the specified OAuth application, only if an authorization for that application doesn't already exist for the user. The URL includes the 20 character client ID for the OAuth app that is requesting the token. It returns the user's existing authorization for the application if one is present. Otherwise, it creates and returns a new one.",
   "idName": "get-or-create-authorization-for-app",
-  "documentationUrl": "https://developer.github.com/v3/oauth_authorizations/#get-or-create-an-authorization-for-a-specific-app"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/oauth_authorizations/#get-or-create-an-authorization-for-a-specific-app"
 }

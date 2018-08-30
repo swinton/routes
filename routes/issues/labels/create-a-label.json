@@ -21,7 +21,7 @@
     {
       "name": "name",
       "type": "string",
-      "description": "The name of the label. Emoji can be added to label names, using either native emoji or colon-style markup. For example, typing `:strawberry:` will render the emoji ![:strawberry:](https://a248.e.akamai.net/assets.github.com/images/icons/emoji/unicode/1f353.png \":strawberry:\"). For a full list of available emoji and codes, see [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com/).",
+      "description": "The name of the label.",
       "required": true,
       "location": "body"
     },
@@ -31,19 +31,11 @@
       "description": "The [hexadecimal color code](http://www.color-hex.com/) for the label, without the leading `#`.",
       "required": true,
       "location": "body"
-    },
-    {
-      "name": "description",
-      "type": "string",
-      "description": "A short description of the label.",
-      "required": false,
-      "location": "body"
     }
   ],
   "requests": [
     {
       "name": "bug",
-      "description": "Houston, we have a problem",
       "color": "f29513"
     }
   ],
@@ -56,15 +48,13 @@
       },
       "body": {
         "id": 208045946,
-        "node_id": "MDU6TGFiZWwyMDgwNDU5NDY=",
         "url": "https://api.github.com/repos/octocat/Hello-World/labels/bug",
         "name": "bug",
-        "description": "Houston, we have a problem",
         "color": "f29513",
         "default": true
       }
     }
   ],
   "idName": "create-label",
-  "documentationUrl": "https://developer.github.com/v3/issues/labels/#create-a-label"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/issues/labels/#create-a-label"
 }

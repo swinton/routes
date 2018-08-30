@@ -36,5 +36,5 @@
     }
   ],
   "idName": "unlock",
-  "documentationUrl": "https://developer.github.com/v3/issues/#unlock-an-issue"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/issues/#unlock-an-issue"
 }

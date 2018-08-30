@@ -41,7 +41,6 @@
       "body": [
         {
           "id": 1,
-          "node_id": "MDQ6VGVhbTE=",
           "url": "https://api.github.com/teams/1",
           "name": "Justice League",
           "slug": "justice-league",
@@ -56,5 +55,5 @@
     }
   ],
   "idName": "replace-protected-branch-team-restrictions",
-  "documentationUrl": "https://developer.github.com/v3/repos/branches/#replace-team-restrictions-of-protected-branch"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/branches/#replace-team-restrictions-of-protected-branch"
 }

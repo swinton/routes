@@ -46,5 +46,5 @@
     }
   ],
   "idName": "get-download",
-  "documentationUrl": "https://developer.github.com/v3/repos/downloads/#get-a-single-download"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/downloads/#get-a-single-download"
 }

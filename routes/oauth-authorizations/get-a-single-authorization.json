@@ -42,5 +42,5 @@
     }
   ],
   "idName": "get-authorization",
-  "documentationUrl": "https://developer.github.com/v3/oauth_authorizations/#get-a-single-authorization"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/oauth_authorizations/#get-a-single-authorization"
 }

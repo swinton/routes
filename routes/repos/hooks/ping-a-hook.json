@@ -26,7 +26,7 @@
       "location": "url"
     }
   ],
-  "description": "This will trigger a [ping event](https://developer.github.com/webhooks/#ping-event) to be sent to the hook.",
+  "description": "This will trigger a [ping event](/enterprise/2.12/webhooks/#ping-event) to be sent to the hook.",
   "responses": [
     {
       "headers": {
@@ -36,5 +36,5 @@
     }
   ],
   "idName": "ping-hook",
-  "documentationUrl": "https://developer.github.com/v3/repos/hooks/#ping-a-hook"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/hooks/#ping-a-hook"
 }

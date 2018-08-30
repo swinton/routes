@@ -40,7 +40,7 @@
       "location": "body"
     }
   ],
-  "description": "**Note:** To dismiss a pull request review on a [protected branch](https://developer.github.com/v3/repos/branches/), you must be a repository administrator or be included in the list of people or teams who can dismiss pull request reviews.",
+  "description": "**Note:** To dismiss a pull request review on a [protected branch](/enterprise/2.12/v3/repos/branches/), you must be a repository administrator or be included in the list of people or teams who can dismiss pull request reviews.",
   "responses": [
     {
       "headers": {
@@ -53,7 +53,6 @@
         "user": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -87,5 +86,5 @@
     }
   ],
   "idName": "dismiss-review",
-  "documentationUrl": "https://developer.github.com/v3/pulls/reviews/#dismiss-a-pull-request-review"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/pulls/reviews/#dismiss-a-pull-request-review"
 }

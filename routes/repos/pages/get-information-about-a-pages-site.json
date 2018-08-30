@@ -40,5 +40,5 @@
     }
   ],
   "idName": "get-pages",
-  "documentationUrl": "https://developer.github.com/v3/repos/pages/#get-information-about-a-pages-site"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/pages/#get-information-about-a-pages-site"
 }

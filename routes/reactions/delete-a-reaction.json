@@ -12,7 +12,7 @@
       "location": "url"
     }
   ],
-  "description": "OAuth access tokens require the `write:discussion` [scope](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/), when deleting a [team discussion](https://developer.github.com/v3/teams/discussions/) or [team discussion comment](https://developer.github.com/v3/teams/discussion_comments/).",
+  "description": "",
   "responses": [
     {
       "headers": {
@@ -22,5 +22,5 @@
     }
   ],
   "idName": "delete",
-  "documentationUrl": "https://developer.github.com/v3/reactions/#delete-a-reaction"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/reactions/#delete-a-reaction"
 }

@@ -42,10 +42,8 @@
       "body": [
         {
           "id": 208045946,
-          "node_id": "MDU6TGFiZWwyMDgwNDU5NDY=",
           "url": "https://api.github.com/repos/octocat/Hello-World/labels/bug",
           "name": "bug",
-          "description": "Houston, we have a problem",
           "color": "f29513",
           "default": true
         }
@@ -53,5 +51,5 @@
     }
   ],
   "idName": "replace-labels",
-  "documentationUrl": "https://developer.github.com/v3/issues/labels/#replace-all-labels-for-an-issue"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/issues/labels/#replace-all-labels-for-an-issue"
 }

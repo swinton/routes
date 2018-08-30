@@ -89,7 +89,6 @@
       },
       "body": {
         "id": 1,
-        "node_id": "MDQ6VGVhbTE=",
         "url": "https://api.github.com/teams/1",
         "name": "Justice League",
         "slug": "justice-league",
@@ -106,7 +105,6 @@
         "organization": {
           "login": "github",
           "id": 1,
-          "node_id": "MDEyOk9yZ2FuaXphdGlvbjE=",
           "url": "https://api.github.com/orgs/github",
           "repos_url": "https://api.github.com/orgs/github/repos",
           "events_url": "https://api.github.com/orgs/github/events",
@@ -121,7 +119,6 @@
           "blog": "https://github.com/blog",
           "location": "San Francisco",
           "email": "octocat@github.com",
-          "is_verified": true,
           "has_organization_projects": true,
           "has_repository_projects": true,
           "public_repos": 2,
@@ -136,5 +133,5 @@
     }
   ],
   "idName": "create",
-  "documentationUrl": "https://developer.github.com/v3/teams/#create-team"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/teams/#create-team"
 }

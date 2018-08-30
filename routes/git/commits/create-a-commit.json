@@ -76,7 +76,6 @@
       },
       "body": {
         "sha": "7638417db6d59f3c431d3e1f261cc637155684cd",
-        "node_id": "MDY6Q29tbWl0NzYzODQxN2RiNmQ1OWYzYzQzMWQzZTFmMjYxY2M2MzcxNTU2ODRjZA==",
         "url": "https://api.github.com/repos/octocat/Hello-World/git/commits/7638417db6d59f3c431d3e1f261cc637155684cd",
         "author": {
           "date": "2014-11-07T22:01:45Z",
@@ -109,5 +108,5 @@
     }
   ],
   "idName": "create-commit",
-  "documentationUrl": "https://developer.github.com/v3/git/commits/#create-a-commit"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/git/commits/#create-a-commit"
 }

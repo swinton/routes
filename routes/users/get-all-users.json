@@ -28,7 +28,7 @@
       "location": "query"
     }
   ],
-  "description": "Lists all users, in the order that they signed up on GitHub. This list includes personal user accounts and organization accounts.\n\nNote: Pagination is powered exclusively by the `since` parameter. Use the [Link header](https://developer.github.com/v3/#link-header) to get the URL for the next page of users.",
+  "description": "Lists all users, in the order that they signed up on GitHub Enterprise. This list includes personal user accounts and organization accounts.\n\nNote: Pagination is powered exclusively by the `since` parameter. Use the [Link header](/enterprise/2.12/v3/#link-header) to get the URL for the next page of users.",
   "responses": [
     {
       "headers": {
@@ -39,7 +39,6 @@
         {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -60,5 +59,5 @@
     }
   ],
   "idName": "list",
-  "documentationUrl": "https://developer.github.com/v3/users/#get-all-users"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/users/#get-all-users"
 }

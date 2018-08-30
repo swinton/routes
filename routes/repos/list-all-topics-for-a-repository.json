@@ -37,5 +37,5 @@
     }
   ],
   "idName": "list-topics",
-  "documentationUrl": "https://developer.github.com/v3/repos/#list-all-topics-for-a-repository"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/#list-all-topics-for-a-repository"
 }

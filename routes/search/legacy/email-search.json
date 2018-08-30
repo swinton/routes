@@ -12,7 +12,7 @@
       "location": "url"
     }
   ],
-  "description": "This API call is added for compatibility reasons only. There's no guarantee that full email searches will always be available. The `@` character in the address must be left unencoded. Searches only against public email addresses (as configured on the user's GitHub profile).",
+  "description": "This API call is added for compatibility reasons only. There's no guarantee that full email searches will always be available. The `@` character in the address must be left unencoded. Searches only against public email addresses (as configured on the user's GitHub Enterprise profile).",
   "idName": "email-legacy",
-  "documentationUrl": "https://developer.github.com/v3/search/legacy/#email-search"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/search/legacy/#email-search"
 }

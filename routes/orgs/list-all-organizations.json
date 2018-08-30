@@ -28,7 +28,7 @@
       "location": "query"
     }
   ],
-  "description": "Lists all organizations, in the order that they were created on GitHub.\n\n**Note:** Pagination is powered exclusively by the `since` parameter. Use the [Link header](https://developer.github.com/v3/#link-header) to get the URL for the next page of organizations.",
+  "description": "Lists all organizations, in the order that they were created on GitHub Enterprise.\n\n**Note:** Pagination is powered exclusively by the `since` parameter. Use the [Link header](/enterprise/2.12/v3/#link-header) to get the URL for the next page of organizations.",
   "responses": [
     {
       "headers": {
@@ -39,7 +39,6 @@
         {
           "login": "github",
           "id": 1,
-          "node_id": "MDEyOk9yZ2FuaXphdGlvbjE=",
           "url": "https://api.github.com/orgs/github",
           "repos_url": "https://api.github.com/orgs/github/repos",
           "events_url": "https://api.github.com/orgs/github/events",
@@ -54,5 +53,5 @@
     }
   ],
   "idName": "list",
-  "documentationUrl": "https://developer.github.com/v3/orgs/#list-all-organizations"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/orgs/#list-all-organizations"
 }

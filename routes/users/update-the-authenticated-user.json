@@ -75,7 +75,6 @@
       "body": {
         "login": "octocat",
         "id": 1,
-        "node_id": "MDQ6VXNlcjE=",
         "avatar_url": "https://github.com/images/error/octocat_happy.gif",
         "gravatar_id": "",
         "url": "https://api.github.com/users/octocat",
@@ -120,5 +119,5 @@
     }
   ],
   "idName": "update-authenticated",
-  "documentationUrl": "https://developer.github.com/v3/users/#update-the-authenticated-user"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/users/#update-the-authenticated-user"
 }

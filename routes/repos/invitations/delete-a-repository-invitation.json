@@ -36,5 +36,5 @@
     }
   ],
   "idName": "delete-invitation",
-  "documentationUrl": "https://developer.github.com/v3/repos/invitations/#delete-a-repository-invitation"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/invitations/#delete-a-repository-invitation"
 }

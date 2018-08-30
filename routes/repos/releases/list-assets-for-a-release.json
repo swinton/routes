@@ -54,7 +54,6 @@
           "url": "https://api.github.com/repos/octocat/Hello-World/releases/assets/1",
           "browser_download_url": "https://github.com/octocat/Hello-World/releases/download/v1.0.0/example.zip",
           "id": 1,
-          "node_id": "MDEyOlJlbGVhc2VBc3NldDE=",
           "name": "example.zip",
           "label": "short description",
           "state": "uploaded",
@@ -66,7 +65,6 @@
           "uploader": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -88,5 +86,5 @@
     }
   ],
   "idName": "list-assets-for-release",
-  "documentationUrl": "https://developer.github.com/v3/repos/releases/#list-assets-for-a-release"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/releases/#list-assets-for-a-release"
 }

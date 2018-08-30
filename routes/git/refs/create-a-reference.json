@@ -48,7 +48,6 @@
       },
       "body": {
         "ref": "refs/heads/featureA",
-        "node_id": "MDM6UmVmcmVmcy9oZWFkcy9mZWF0dXJlQQ==",
         "url": "https://api.github.com/repos/octocat/Hello-World/git/refs/heads/featureA",
         "object": {
           "type": "commit",
@@ -59,5 +58,5 @@
     }
   ],
   "idName": "create-ref",
-  "documentationUrl": "https://developer.github.com/v3/git/refs/#create-a-reference"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/git/refs/#create-a-reference"
 }

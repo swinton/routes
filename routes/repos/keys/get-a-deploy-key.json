@@ -45,5 +45,5 @@
     }
   ],
   "idName": "get-deploy-key",
-  "documentationUrl": "https://developer.github.com/v3/repos/keys/#get-a-deploy-key"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/keys/#get-a-deploy-key"
 }

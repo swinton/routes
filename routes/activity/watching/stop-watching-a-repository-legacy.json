@@ -29,5 +29,5 @@
     }
   ],
   "idName": "stop-watching-repo-legacy",
-  "documentationUrl": "https://developer.github.com/v3/activity/watching/#stop-watching-a-repository-legacy"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/activity/watching/#stop-watching-a-repository-legacy"
 }

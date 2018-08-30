@@ -54,5 +54,5 @@
     }
   ],
   "idName": "get-hook",
-  "documentationUrl": "https://developer.github.com/v3/repos/hooks/#get-single-hook"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/hooks/#get-single-hook"
 }

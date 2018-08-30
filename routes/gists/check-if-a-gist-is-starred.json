@@ -14,5 +14,5 @@
   ],
   "description": "",
   "idName": "check-is-starred",
-  "documentationUrl": "https://developer.github.com/v3/gists/#check-if-a-gist-is-starred"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/gists/#check-if-a-gist-is-starred"
 }

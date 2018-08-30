@@ -35,7 +35,7 @@
       "location": "query"
     }
   ],
-  "description": "This returns a list of releases, which does not include regular Git tags that have not been associated with a release. To get a list of Git tags, use the [Repository Tags API](https://developer.github.com/v3/repos/#list-tags).\n\nInformation about published releases are available to everyone. Only users with push access will receive listings for draft releases.",
+  "description": "This returns a list of releases, which does not include regular Git tags that have not been associated with a release. To get a list of Git tags, use the [Repository Tags API](/enterprise/2.12/v3/repos/#list-tags).\n\nInformation about published releases are available to everyone. Only users with push access will receive listings for draft releases.",
   "responses": [
     {
       "headers": {
@@ -51,7 +51,6 @@
           "tarball_url": "https://api.github.com/repos/octocat/Hello-World/tarball/v1.0.0",
           "zipball_url": "https://api.github.com/repos/octocat/Hello-World/zipball/v1.0.0",
           "id": 1,
-          "node_id": "MDc6UmVsZWFzZTE=",
           "tag_name": "v1.0.0",
           "target_commitish": "master",
           "name": "v1.0.0",
@@ -63,7 +62,6 @@
           "author": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -85,7 +83,6 @@
               "url": "https://api.github.com/repos/octocat/Hello-World/releases/assets/1",
               "browser_download_url": "https://github.com/octocat/Hello-World/releases/download/v1.0.0/example.zip",
               "id": 1,
-              "node_id": "MDEyOlJlbGVhc2VBc3NldDE=",
               "name": "example.zip",
               "label": "short description",
               "state": "uploaded",
@@ -97,7 +94,6 @@
               "uploader": {
                 "login": "octocat",
                 "id": 1,
-                "node_id": "MDQ6VXNlcjE=",
                 "avatar_url": "https://github.com/images/error/octocat_happy.gif",
                 "gravatar_id": "",
                 "url": "https://api.github.com/users/octocat",
@@ -121,5 +117,5 @@
     }
   ],
   "idName": "list-releases",
-  "documentationUrl": "https://developer.github.com/v3/repos/releases/#list-releases-for-a-repository"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/releases/#list-releases-for-a-repository"
 }

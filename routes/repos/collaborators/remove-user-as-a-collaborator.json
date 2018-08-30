@@ -36,5 +36,5 @@
     }
   ],
   "idName": "remove-collaborator",
-  "documentationUrl": "https://developer.github.com/v3/repos/collaborators/#remove-user-as-a-collaborator"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/collaborators/#remove-user-as-a-collaborator"
 }

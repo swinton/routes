@@ -26,7 +26,7 @@
       "location": "url"
     }
   ],
-  "description": "Diffs with binary data will have no 'patch' property. Pass the appropriate [media type](https://developer.github.com/v3/media/#commits-commit-comparison-and-pull-requests) to fetch diff and patch formats.",
+  "description": "Diffs with binary data will have no 'patch' property. Pass the appropriate [media type](/enterprise/2.12/v3/media/#commits-commit-comparison-and-pull-requests) to fetch diff and patch formats.",
   "responses": [
     {
       "headers": {
@@ -36,7 +36,6 @@
       "body": {
         "url": "https://api.github.com/repos/octocat/Hello-World/commits/6dcb09b5b57875f334f61aebed695e2e4193db5e",
         "sha": "6dcb09b5b57875f334f61aebed695e2e4193db5e",
-        "node_id": "MDY6Q29tbWl0NmRjYjA5YjViNTc4NzVmMzM0ZjYxYWViZWQ2OTVlMmU0MTkzZGI1ZQ==",
         "html_url": "https://github.com/octocat/Hello-World/commit/6dcb09b5b57875f334f61aebed695e2e4193db5e",
         "comments_url": "https://api.github.com/repos/octocat/Hello-World/commits/6dcb09b5b57875f334f61aebed695e2e4193db5e/comments",
         "commit": {
@@ -67,7 +66,6 @@
         "author": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -87,7 +85,6 @@
         "committer": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -128,9 +125,9 @@
           }
         ]
       },
-      "description": "Diffs with binary data will have no 'patch' property. Pass the appropriate [media type](/v3/media/#commits-commit-comparison-and-pull-requests) to fetch diff and patch formats."
+      "description": "Diffs with binary data will have no 'patch' property. Pass the appropriate [media type](/enterprise/2.12/v3/media/#commits-commit-comparison-and-pull-requests) to fetch diff and patch formats."
     }
   ],
   "idName": "get-commit",
-  "documentationUrl": "https://developer.github.com/v3/repos/commits/#get-a-single-commit"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/commits/#get-a-single-commit"
 }

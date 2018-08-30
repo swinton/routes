@@ -36,5 +36,5 @@
     }
   ],
   "idName": "test-push-hook",
-  "documentationUrl": "https://developer.github.com/v3/repos/hooks/#test-a-push-hook"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/hooks/#test-a-push-hook"
 }

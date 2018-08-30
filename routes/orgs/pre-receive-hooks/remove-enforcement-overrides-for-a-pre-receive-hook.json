@@ -1,0 +1,25 @@
+{
+  "name": "Remove enforcement overrides for a pre-receive hook",
+  "enabledForApps": false,
+  "method": "DELETE",
+  "path": "/orgs/:org/pre-receive-hooks/:pre_receive_hook_id",
+  "params": [
+    {
+      "name": "org",
+      "type": "string",
+      "required": true,
+      "description": "",
+      "location": "url"
+    },
+    {
+      "name": "pre_receive_hook_id",
+      "type": "string",
+      "required": true,
+      "description": "",
+      "location": "url"
+    }
+  ],
+  "description": "Removes any overrides for this hook at the org level for this org.",
+  "idName": "remove-enforcement-overrides-for-pre-receive-hook",
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/orgs/pre_receive_hooks/#remove-enforcement-overrides-for-a-pre-receive-hook"
+}

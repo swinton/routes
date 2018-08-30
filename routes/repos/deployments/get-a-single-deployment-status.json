@@ -40,7 +40,7 @@
       "location": "url"
     }
   ],
-  "description": "Users with pull access can view a deployment status for a deployment:\n\n\n\n**Note:** If a user created a deployment status via a GitHub App, the `performed_via_github_app` key will contain information on that GitHub App.",
+  "description": "Users with pull access can view a deployment status for a deployment:",
   "responses": [
     {
       "headers": {
@@ -50,12 +50,10 @@
       "body": {
         "url": "https://api.github.com/repos/octocat/example/deployments/42/statuses/1",
         "id": 1,
-        "node_id": "MDE2OkRlcGxveW1lbnRTdGF0dXMx",
         "state": "success",
         "creator": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -82,5 +80,5 @@
     }
   ],
   "idName": "get-deployment-status",
-  "documentationUrl": "https://developer.github.com/v3/repos/deployments/#get-a-single-deployment-status"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/deployments/#get-a-single-deployment-status"
 }

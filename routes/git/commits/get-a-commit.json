@@ -67,5 +67,5 @@
     }
   ],
   "idName": "get-commit",
-  "documentationUrl": "https://developer.github.com/v3/git/commits/#get-a-commit"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/git/commits/#get-a-commit"
 }

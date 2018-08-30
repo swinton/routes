@@ -33,13 +33,11 @@
           "id": 1,
           "repository": {
             "id": 1296269,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
             "name": "Hello-World",
             "full_name": "octocat/Hello-World",
             "owner": {
               "login": "octocat",
               "id": 1,
-              "node_id": "MDQ6VXNlcjE=",
               "avatar_url": "https://github.com/images/error/octocat_happy.gif",
               "gravatar_id": "",
               "url": "https://api.github.com/users/octocat",
@@ -102,7 +100,6 @@
           "invitee": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -122,7 +119,6 @@
           "inviter": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -148,5 +144,5 @@
     }
   ],
   "idName": "list-invitations-for-authenticated-user",
-  "documentationUrl": "https://developer.github.com/v3/repos/invitations/#list-a-users-repository-invitations"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/invitations/#list-a-users-repository-invitations"
 }

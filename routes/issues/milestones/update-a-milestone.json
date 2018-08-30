@@ -79,7 +79,6 @@
         "html_url": "https://github.com/octocat/Hello-World/milestones/v1.0",
         "labels_url": "https://api.github.com/repos/octocat/Hello-World/milestones/1/labels",
         "id": 1002604,
-        "node_id": "MDk6TWlsZXN0b25lMTAwMjYwNA==",
         "number": 1,
         "state": "open",
         "title": "v1.0",
@@ -87,7 +86,6 @@
         "creator": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -114,5 +112,5 @@
     }
   ],
   "idName": "update-milestone",
-  "documentationUrl": "https://developer.github.com/v3/issues/milestones/#update-a-milestone"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/issues/milestones/#update-a-milestone"
 }

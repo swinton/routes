@@ -22,5 +22,5 @@
     }
   ],
   "idName": "unfollow",
-  "documentationUrl": "https://developer.github.com/v3/users/followers/#unfollow-a-user"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/users/followers/#unfollow-a-user"
 }

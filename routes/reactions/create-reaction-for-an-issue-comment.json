@@ -28,7 +28,7 @@
     {
       "name": "content",
       "type": "string",
-      "description": "The [reaction type](https://developer.github.com/v3/reactions/#reaction-types) to add to the issue comment.",
+      "description": "The [reaction type](/enterprise/2.12/v3/reactions/#reaction-types) to add to the issue comment.",
       "required": true,
       "enum": [
         "+1",
@@ -46,7 +46,7 @@
       "content": "heart"
     }
   ],
-  "description": "Create a reaction to an [issue comment](https://developer.github.com/v3/issues/comments/). A response with a `Status: 200 OK` means that you already added the reaction type to this issue comment.",
+  "description": "Create a reaction to an [issue comment](/enterprise/2.12/v3/issues/comments/). A response with a `Status: 200 OK` means that you already added the reaction type to this issue comment.",
   "responses": [
     {
       "headers": {
@@ -55,11 +55,9 @@
       },
       "body": {
         "id": 1,
-        "node_id": "MDg6UmVhY3Rpb24x",
         "user": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -82,5 +80,5 @@
     }
   ],
   "idName": "create-for-issue-comment",
-  "documentationUrl": "https://developer.github.com/v3/reactions/#create-reaction-for-an-issue-comment"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/reactions/#create-reaction-for-an-issue-comment"
 }

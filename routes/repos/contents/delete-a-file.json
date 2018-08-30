@@ -81,7 +81,6 @@
         "content": null,
         "commit": {
           "sha": "7638417db6d59f3c431d3e1f261cc637155684cd",
-          "node_id": "MDY6Q29tbWl0NzYzODQxN2RiNmQ1OWYzYzQzMWQzZTFmMjYxY2M2MzcxNTU2ODRjZA==",
           "url": "https://api.github.com/repos/octocat/Hello-World/git/commits/7638417db6d59f3c431d3e1f261cc637155684cd",
           "html_url": "https://github.com/octocat/Hello-World/git/commit/7638417db6d59f3c431d3e1f261cc637155684cd",
           "author": {
@@ -117,5 +116,5 @@
     }
   ],
   "idName": "delete-file",
-  "documentationUrl": "https://developer.github.com/v3/repos/contents/#delete-a-file"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/contents/#delete-a-file"
 }

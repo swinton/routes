@@ -49,7 +49,7 @@
       "location": "query"
     }
   ],
-  "description": "Issue Comments are ordered by ascending ID.\n\n",
+  "description": "Issue Comments are ordered by ascending ID.",
   "responses": [
     {
       "headers": {
@@ -59,14 +59,12 @@
       "body": [
         {
           "id": 1,
-          "node_id": "MDEyOklzc3VlQ29tbWVudDE=",
           "url": "https://api.github.com/repos/octocat/Hello-World/issues/comments/1",
           "html_url": "https://github.com/octocat/Hello-World/issues/1347#issuecomment-1",
           "body": "Me too",
           "user": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -90,5 +88,5 @@
     }
   ],
   "idName": "list-comments",
-  "documentationUrl": "https://developer.github.com/v3/issues/comments/#list-comments-on-an-issue"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/issues/comments/#list-comments-on-an-issue"
 }

@@ -14,5 +14,5 @@
   ],
   "description": "",
   "idName": "delete",
-  "documentationUrl": "https://developer.github.com/v3/projects/#delete-a-project"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/projects/#delete-a-project"
 }

@@ -43,5 +43,5 @@
     }
   ],
   "idName": "toggle-primary-email-visibility",
-  "documentationUrl": "https://developer.github.com/v3/users/emails/#toggle-primary-email-visibility"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/users/emails/#toggle-primary-email-visibility"
 }

@@ -22,5 +22,5 @@
     }
   ],
   "idName": "decline-invitation",
-  "documentationUrl": "https://developer.github.com/v3/repos/invitations/#decline-a-repository-invitation"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/invitations/#decline-a-repository-invitation"
 }

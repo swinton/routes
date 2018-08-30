@@ -39,7 +39,6 @@
         {
           "login": "github",
           "id": 1,
-          "node_id": "MDEyOk9yZ2FuaXphdGlvbjE=",
           "url": "https://api.github.com/orgs/github",
           "repos_url": "https://api.github.com/orgs/github/repos",
           "events_url": "https://api.github.com/orgs/github/events",
@@ -54,5 +53,5 @@
     }
   ],
   "idName": "list-for-user",
-  "documentationUrl": "https://developer.github.com/v3/orgs/#list-user-organizations"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/orgs/#list-user-organizations"
 }

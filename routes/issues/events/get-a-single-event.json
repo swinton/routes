@@ -26,7 +26,7 @@
       "location": "url"
     }
   ],
-  "description": "\n\n**Note:** If the event was triggered by a user via a GitHub App, the `performed_via_github_app` key will contain information on that GitHub App.",
+  "description": "",
   "responses": [
     {
       "headers": {
@@ -35,12 +35,10 @@
       },
       "body": {
         "id": 1,
-        "node_id": "MDEwOklzc3VlRXZlbnQx",
         "url": "https://api.github.com/repos/octocat/Hello-World/issues/events/1",
         "actor": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -63,7 +61,6 @@
         "created_at": "2011-04-14T16:00:49Z",
         "issue": {
           "id": 1,
-          "node_id": "MDU6SXNzdWUx",
           "url": "https://api.github.com/repos/octocat/Hello-World/issues/1347",
           "repository_url": "https://api.github.com/repos/octocat/Hello-World",
           "labels_url": "https://api.github.com/repos/octocat/Hello-World/issues/1347/labels{/name}",
@@ -77,7 +74,6 @@
           "user": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -94,21 +90,16 @@
             "type": "User",
             "site_admin": false
           },
-          "labels": [
-            {
-              "id": 208045946,
-              "node_id": "MDU6TGFiZWwyMDgwNDU5NDY=",
-              "url": "https://api.github.com/repos/octocat/Hello-World/labels/bug",
-              "name": "bug",
-              "description": "Houston, we have a problem",
-              "color": "f29513",
-              "default": true
-            }
-          ],
+          "labels": {
+            "id": 208045946,
+            "url": "https://api.github.com/repos/octocat/Hello-World/labels/bug",
+            "name": "bug",
+            "color": "f29513",
+            "default": true
+          },
           "assignee": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -129,7 +120,6 @@
             {
               "login": "octocat",
               "id": 1,
-              "node_id": "MDQ6VXNlcjE=",
               "avatar_url": "https://github.com/images/error/octocat_happy.gif",
               "gravatar_id": "",
               "url": "https://api.github.com/users/octocat",
@@ -152,7 +142,6 @@
             "html_url": "https://github.com/octocat/Hello-World/milestones/v1.0",
             "labels_url": "https://api.github.com/repos/octocat/Hello-World/milestones/1/labels",
             "id": 1002604,
-            "node_id": "MDk6TWlsZXN0b25lMTAwMjYwNA==",
             "number": 1,
             "state": "open",
             "title": "v1.0",
@@ -160,7 +149,6 @@
             "creator": {
               "login": "octocat",
               "id": 1,
-              "node_id": "MDQ6VXNlcjE=",
               "avatar_url": "https://github.com/images/error/octocat_happy.gif",
               "gravatar_id": "",
               "url": "https://api.github.com/users/octocat",
@@ -185,7 +173,6 @@
             "due_on": "2012-10-09T23:39:01Z"
           },
           "locked": true,
-          "active_lock_reason": "too heated",
           "comments": 0,
           "pull_request": {
             "url": "https://api.github.com/repos/octocat/Hello-World/pulls/1347",
@@ -201,5 +188,5 @@
     }
   ],
   "idName": "get-event",
-  "documentationUrl": "https://developer.github.com/v3/issues/events/#get-a-single-event"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/issues/events/#get-a-single-event"
 }

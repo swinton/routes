@@ -30,5 +30,5 @@
   ],
   "description": "",
   "idName": "list-public-events-for-org",
-  "documentationUrl": "https://developer.github.com/v3/activity/events/#list-public-events-for-an-organization"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/activity/events/#list-public-events-for-an-organization"
 }

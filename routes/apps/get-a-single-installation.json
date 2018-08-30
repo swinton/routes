@@ -12,7 +12,7 @@
       "location": "url"
     }
   ],
-  "description": "You must use a [JWT](https://developer.github.com/apps/building-github-apps/authenticating-with-github-apps/#authenticating-as-a-github-app) to access this endpoint.",
+  "description": "You must use a [JWT](/enterprise/2.12/apps/building-github-apps/authenticating-with-github-apps/#authenticating-as-a-github-app) to access this endpoint.",
   "responses": [
     {
       "headers": {
@@ -24,7 +24,6 @@
         "account": {
           "login": "github",
           "id": 1,
-          "node_id": "MDEyOk9yZ2FuaXphdGlvbjE=",
           "url": "https://api.github.com/orgs/github",
           "repos_url": "https://api.github.com/orgs/github/repos",
           "events_url": "https://api.github.com/orgs/github/events",
@@ -57,5 +56,5 @@
     }
   ],
   "idName": "get-installation",
-  "documentationUrl": "https://developer.github.com/v3/apps/#get-a-single-installation"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/apps/#get-a-single-installation"
 }

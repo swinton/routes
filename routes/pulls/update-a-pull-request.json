@@ -73,7 +73,7 @@
       "base": "master"
     }
   ],
-  "description": "**Note:** To open a pull request in a public repository, you must have write access to the head or the source branch. For organization-owned repositories, you must be a member of the organization that owns the repository to open a pull request.",
+  "description": "",
   "responses": [
     {
       "headers": {
@@ -82,7 +82,6 @@
       },
       "body": {
         "id": 1,
-        "node_id": "MDExOlB1bGxSZXF1ZXN0MQ==",
         "url": "https://api.github.com/repos/octocat/Hello-World/pulls/1347",
         "html_url": "https://github.com/octocat/Hello-World/pull/1347",
         "diff_url": "https://github.com/octocat/Hello-World/pull/1347.diff",
@@ -100,7 +99,6 @@
         "assignee": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -117,23 +115,11 @@
           "type": "User",
           "site_admin": false
         },
-        "labels": [
-          {
-            "id": 208045946,
-            "node_id": "MDU6TGFiZWwyMDgwNDU5NDY=",
-            "url": "https://api.github.com/repos/octocat/Hello-World/labels/bug",
-            "name": "bug",
-            "description": "Houston, we have a problem",
-            "color": "f29513",
-            "default": true
-          }
-        ],
         "milestone": {
           "url": "https://api.github.com/repos/octocat/Hello-World/milestones/1",
           "html_url": "https://github.com/octocat/Hello-World/milestones/v1.0",
           "labels_url": "https://api.github.com/repos/octocat/Hello-World/milestones/1/labels",
           "id": 1002604,
-          "node_id": "MDk6TWlsZXN0b25lMTAwMjYwNA==",
           "number": 1,
           "state": "open",
           "title": "v1.0",
@@ -141,7 +127,6 @@
           "creator": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -166,7 +151,6 @@
           "due_on": "2012-10-09T23:39:01Z"
         },
         "locked": true,
-        "active_lock_reason": "too heated",
         "created_at": "2011-01-26T19:01:12Z",
         "updated_at": "2011-01-26T19:01:12Z",
         "closed_at": "2011-01-26T19:01:12Z",
@@ -178,7 +162,6 @@
           "user": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -197,13 +180,11 @@
           },
           "repo": {
             "id": 1296269,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
             "name": "Hello-World",
             "full_name": "octocat/Hello-World",
             "owner": {
               "login": "octocat",
               "id": 1,
-              "node_id": "MDQ6VXNlcjE=",
               "avatar_url": "https://github.com/images/error/octocat_happy.gif",
               "gravatar_id": "",
               "url": "https://api.github.com/users/octocat",
@@ -223,7 +204,7 @@
             "private": false,
             "html_url": "https://github.com/octocat/Hello-World",
             "description": "This your first repo!",
-            "fork": false,
+            "fork": true,
             "url": "https://api.github.com/repos/octocat/Hello-World",
             "archive_url": "http://api.github.com/repos/octocat/Hello-World/{archive_format}{/ref}",
             "assignees_url": "http://api.github.com/repos/octocat/Hello-World/assignees{/user}",
@@ -308,7 +289,6 @@
           "user": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -327,13 +307,11 @@
           },
           "repo": {
             "id": 1296269,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
             "name": "Hello-World",
             "full_name": "octocat/Hello-World",
             "owner": {
               "login": "octocat",
               "id": 1,
-              "node_id": "MDQ6VXNlcjE=",
               "avatar_url": "https://github.com/images/error/octocat_happy.gif",
               "gravatar_id": "",
               "url": "https://api.github.com/users/octocat",
@@ -353,7 +331,7 @@
             "private": false,
             "html_url": "https://github.com/octocat/Hello-World",
             "description": "This your first repo!",
-            "fork": false,
+            "fork": true,
             "url": "https://api.github.com/repos/octocat/Hello-World",
             "archive_url": "http://api.github.com/repos/octocat/Hello-World/{archive_format}{/ref}",
             "assignees_url": "http://api.github.com/repos/octocat/Hello-World/assignees{/user}",
@@ -460,7 +438,6 @@
         "user": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -481,5 +458,5 @@
     }
   ],
   "idName": "update",
-  "documentationUrl": "https://developer.github.com/v3/pulls/#update-a-pull-request"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/pulls/#update-a-pull-request"
 }

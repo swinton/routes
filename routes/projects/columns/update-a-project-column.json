@@ -21,5 +21,5 @@
   ],
   "description": "",
   "idName": "update-column",
-  "documentationUrl": "https://developer.github.com/v3/projects/columns/#update-a-project-column"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/projects/columns/#update-a-project-column"
 }

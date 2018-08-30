@@ -53,5 +53,5 @@
     }
   ],
   "idName": "list-authorizations",
-  "documentationUrl": "https://developer.github.com/v3/oauth_authorizations/#list-your-authorizations"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/oauth_authorizations/#list-your-authorizations"
 }

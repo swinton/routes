@@ -36,5 +36,5 @@
     }
   ],
   "idName": "remove-deploy-key",
-  "documentationUrl": "https://developer.github.com/v3/repos/keys/#remove-a-deploy-key"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/keys/#remove-a-deploy-key"
 }

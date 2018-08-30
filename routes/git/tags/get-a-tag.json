@@ -34,7 +34,6 @@
         "content-type": "application/json; charset=utf-8"
       },
       "body": {
-        "node_id": "MDM6VGFnOTQwYmQzMzYyNDhlZmFlMGY5ZWU1YmM3YjJkNWM5ODU4ODdiMTZhYw==",
         "tag": "v0.0.1",
         "sha": "940bd336248efae0f9ee5bc7b2d5c985887b16ac",
         "url": "https://api.github.com/repos/octocat/Hello-World/git/tags/940bd336248efae0f9ee5bc7b2d5c985887b16ac",
@@ -59,5 +58,5 @@
     }
   ],
   "idName": "get-tag",
-  "documentationUrl": "https://developer.github.com/v3/git/tags/#get-a-tag"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/git/tags/#get-a-tag"
 }

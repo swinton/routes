@@ -38,7 +38,6 @@
       "body": [
         {
           "id": 1,
-          "node_id": "MDQ6VGVhbTE=",
           "url": "https://api.github.com/teams/1",
           "name": "Justice League",
           "slug": "justice-league",
@@ -53,5 +52,5 @@
     }
   ],
   "idName": "list",
-  "documentationUrl": "https://developer.github.com/v3/teams/#list-teams"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/teams/#list-teams"
 }

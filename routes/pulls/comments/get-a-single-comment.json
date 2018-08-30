@@ -36,7 +36,6 @@
       "body": {
         "url": "https://api.github.com/repos/octocat/Hello-World/pulls/comments/1",
         "id": 10,
-        "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDEw",
         "pull_request_review_id": 42,
         "diff_hunk": "@@ -16,33 +16,40 @@ public class Connection : IConnection...",
         "path": "file1.txt",
@@ -48,7 +47,6 @@
         "user": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -85,5 +83,5 @@
     }
   ],
   "idName": "get-comment",
-  "documentationUrl": "https://developer.github.com/v3/pulls/comments/#get-a-single-comment"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/pulls/comments/#get-a-single-comment"
 }

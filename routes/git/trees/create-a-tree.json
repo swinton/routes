@@ -68,7 +68,7 @@
     {
       "name": "tree[].content",
       "type": "string",
-      "description": "The content you want this file to have. GitHub will write this blob out and use that SHA for this entry. Use either this, or `tree.sha`.",
+      "description": "The content you want this file to have. GitHub Enterprise will write this blob out and use that SHA for this entry. Use either this, or `tree.sha`.",
       "required": false,
       "location": "body"
     },
@@ -117,5 +117,5 @@
     }
   ],
   "idName": "create-tree",
-  "documentationUrl": "https://developer.github.com/v3/git/trees/#create-a-tree"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/git/trees/#create-a-tree"
 }

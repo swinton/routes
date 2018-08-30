@@ -1,0 +1,32 @@
+{
+  "name": "Get a single pre-receive hook",
+  "enabledForApps": false,
+  "method": "GET",
+  "path": "/repos/:owner/:repo/pre-receive-hooks/:pre_receive_hook_id",
+  "params": [
+    {
+      "name": "owner",
+      "type": "string",
+      "required": true,
+      "description": "",
+      "location": "url"
+    },
+    {
+      "name": "repo",
+      "type": "string",
+      "required": true,
+      "description": "",
+      "location": "url"
+    },
+    {
+      "name": "pre_receive_hook_id",
+      "type": "string",
+      "required": true,
+      "description": "",
+      "location": "url"
+    }
+  ],
+  "description": "",
+  "idName": "get-pre-receive-hook",
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/pre_receive_hooks/#get-a-single-pre-receive-hook"
+}

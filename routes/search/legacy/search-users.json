@@ -45,5 +45,5 @@
   ],
   "description": "Find users by keyword.",
   "idName": "users-legacy",
-  "documentationUrl": "https://developer.github.com/v3/search/legacy/#search-users"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/search/legacy/#search-users"
 }

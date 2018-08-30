@@ -36,5 +36,5 @@
     }
   ],
   "idName": "delete-comment",
-  "documentationUrl": "https://developer.github.com/v3/pulls/comments/#delete-a-comment"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/pulls/comments/#delete-a-comment"
 }

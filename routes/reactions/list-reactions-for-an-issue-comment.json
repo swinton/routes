@@ -28,7 +28,7 @@
     {
       "name": "content",
       "type": "string",
-      "description": "Returns a single [reaction type](https://developer.github.com/v3/reactions/#reaction-types). Omit this parameter to list all reactions to an issue comment.",
+      "description": "Returns a single [reaction type](/enterprise/2.12/v3/reactions/#reaction-types). Omit this parameter to list all reactions to an issue comment.",
       "required": false,
       "enum": [
         "+1",
@@ -57,7 +57,7 @@
       "location": "query"
     }
   ],
-  "description": "List the reactions to an [issue comment](https://developer.github.com/v3/issues/comments/).",
+  "description": "List the reactions to an [issue comment](/enterprise/2.12/v3/issues/comments/).",
   "responses": [
     {
       "headers": {
@@ -67,11 +67,9 @@
       "body": [
         {
           "id": 1,
-          "node_id": "MDg6UmVhY3Rpb24x",
           "user": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -95,5 +93,5 @@
     }
   ],
   "idName": "list-for-issue-comment",
-  "documentationUrl": "https://developer.github.com/v3/reactions/#list-reactions-for-an-issue-comment"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/reactions/#list-reactions-for-an-issue-comment"
 }

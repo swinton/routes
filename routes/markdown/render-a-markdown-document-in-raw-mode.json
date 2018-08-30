@@ -14,5 +14,5 @@
     }
   ],
   "idName": "render-raw",
-  "documentationUrl": "https://developer.github.com/v3/markdown/#render-a-markdown-document-in-raw-mode"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/markdown/#render-a-markdown-document-in-raw-mode"
 }

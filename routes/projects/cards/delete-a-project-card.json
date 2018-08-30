@@ -22,5 +22,5 @@
     }
   ],
   "idName": "delete-card",
-  "documentationUrl": "https://developer.github.com/v3/projects/cards/#delete-a-project-card"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/projects/cards/#delete-a-project-card"
 }

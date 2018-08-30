@@ -12,7 +12,7 @@
       "location": "url"
     }
   ],
-  "description": "Provides publicly available information about someone with a GitHub account.\n\nThe `email` key in the following response is the publicly visible email address from your GitHub [profile page](https://github.com/settings/profile). When setting up your profile, you can select a primary email address to be “public” which provides an email entry for this endpoint. If you do not set a public email address for `email`, then it will have a value of `null`. You only see publicly visible email addresses when authenticated with GitHub. For more information, see [Authentication](https://developer.github.com/v3/#authentication).\n\nThe Emails API enables you to list all of your email addresses, and toggle a primary email to be visible publicly. For more information, see \"[Emails API](https://developer.github.com/v3/users/emails/)\".",
+  "description": "Provides publicly available information about someone with a GitHub Enterprise account.\n\nThe `email` key in the following response is the publicly visible email address from your GitHub Enterprise [profile page](https://github.com/settings/profile). When setting up your profile, you can select a primary email address to be “public” which provides an email entry for this endpoint. If you do not set a public email address for `email`, then it will have a value of `null`. You only see publicly visible email addresses when authenticated with GitHub Enterprise. For more information, see [Authentication](/enterprise/2.12/v3/#authentication).\n\nThe Emails API enables you to list all of your email addresses, and toggle a primary email to be visible publicly. For more information, see \"[Emails API](/enterprise/2.12/v3/users/emails/)\".",
   "responses": [
     {
       "headers": {
@@ -22,7 +22,6 @@
       "body": {
         "login": "octocat",
         "id": 1,
-        "node_id": "MDQ6VXNlcjE=",
         "avatar_url": "https://github.com/images/error/octocat_happy.gif",
         "gravatar_id": "",
         "url": "https://api.github.com/users/octocat",
@@ -55,5 +54,5 @@
     }
   ],
   "idName": "get-by-username",
-  "documentationUrl": "https://developer.github.com/v3/users/#get-a-single-user"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/users/#get-a-single-user"
 }

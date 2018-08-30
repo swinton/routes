@@ -22,5 +22,5 @@
     }
   ],
   "idName": "delete",
-  "documentationUrl": "https://developer.github.com/v3/teams/#delete-team"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/teams/#delete-team"
 }

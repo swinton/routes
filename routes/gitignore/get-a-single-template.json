@@ -12,7 +12,7 @@
       "location": "url"
     }
   ],
-  "description": "The API also allows fetching the source of a single template.\n\nUse the raw [media type](https://developer.github.com/v3/media/) to get the raw contents.\n\n",
+  "description": "The API also allows fetching the source of a single template.\n\nUse the raw [media type](/enterprise/2.12/v3/media/) to get the raw contents.\n\n",
   "responses": [
     {
       "headers": {
@@ -29,9 +29,9 @@
         "status": "200 OK",
         "content-type": "application/json; charset=utf-8"
       },
-      "description": "Use the raw [media type](/v3/media/) to get the raw contents."
+      "description": "Use the raw [media type](/enterprise/2.12/v3/media/) to get the raw contents."
     }
   ],
   "idName": "get-template",
-  "documentationUrl": "https://developer.github.com/v3/gitignore/#get-a-single-template"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/gitignore/#get-a-single-template"
 }

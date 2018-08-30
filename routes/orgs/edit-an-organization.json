@@ -113,7 +113,6 @@
       "body": {
         "login": "github",
         "id": 1,
-        "node_id": "MDEyOk9yZ2FuaXphdGlvbjE=",
         "url": "https://api.github.com/orgs/github",
         "repos_url": "https://api.github.com/orgs/github/repos",
         "events_url": "https://api.github.com/orgs/github/events",
@@ -128,7 +127,6 @@
         "blog": "https://github.com/blog",
         "location": "San Francisco",
         "email": "octocat@github.com",
-        "is_verified": true,
         "has_organization_projects": true,
         "has_repository_projects": true,
         "public_repos": 2,
@@ -150,11 +148,10 @@
           "private_repos": 20
         },
         "default_repository_settings": "read",
-        "members_can_create_repositories": true,
-        "two_factor_requirement_enabled": true
+        "members_can_create_repositories": true
       }
     }
   ],
   "idName": "edit",
-  "documentationUrl": "https://developer.github.com/v3/orgs/#edit-an-organization"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/orgs/#edit-an-organization"
 }

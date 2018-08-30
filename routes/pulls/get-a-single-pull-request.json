@@ -26,7 +26,7 @@
       "location": "url"
     }
   ],
-  "description": "Lists details of a pull request by providing its number.\n\nWhen you get, [create](https://developer.github.com/v3/pulls/#create-a-pull-request), or [edit](https://developer.github.com/v3/pulls/#update-a-pull-request) a pull request, GitHub creates a merge commit to test whether the pull request can be automatically merged into the base branch. This test commit is not added to the base branch or the head branch. You can review the status of the test commit using the `mergeable` key. For more information, see \"[Checking mergeability of pull requests](https://developer.github.com/v3/git/#checking-mergeability-of-pull-requests)\".\n\nThe value of the `mergeable` attribute can be `true`, `false`, or `null`. If the value is `null`, then GitHub has started a background job to compute the mergeability. After giving the job time to complete, resubmit the request. When the job finishes, you will see a non-`null` value for the `mergeable` attribute in the response. If `mergeable` is `true`, then `merge_commit_sha` will be the SHA of the _test_ merge commit.\n\nThe value of the `merge_commit_sha` attribute changes depending on the state of the pull request. Before merging a pull request, the `merge_commit_sha` attribute holds the SHA of the _test_ merge commit. After merging a pull request, the `merge_commit_sha` attribute changes depending on how you merged the pull request:\n\n*   If merged as a [merge commit](https://help.github.com/articles/about-merge-methods-on-github/), `merge_commit_sha` represents the SHA of the merge commit.\n*   If merged via a [squash](https://help.github.com/articles/about-merge-methods-on-github/#squashing-your-merge-commits), `merge_commit_sha` represents the SHA of the squashed commit on the base branch.\n*   If [rebased](https://help.github.com/articles/about-merge-methods-on-github/#rebasing-and-merging-your-commits), `merge_commit_sha` represents the commit that the base branch was updated to.\n\nPass the appropriate [media type](https://developer.github.com/v3/media/#commits-commit-comparison-and-pull-requests) to fetch diff and patch formats.",
+  "description": "Lists details of a pull request by providing its number.\n\nWhen you get, [create](/enterprise/2.12/v3/pulls/#create-a-pull-request), or [edit](/enterprise/2.12/v3/pulls/#update-a-pull-request) a pull request, GitHub creates a merge commit to test whether the pull request can be automatically merged into the base branch. This test commit is not added to the base branch or the head branch. You can review the status of the test commit using the `mergeable` key. For more information, see \"[Checking mergeability of pull requests](/enterprise/2.12/v3/git/#checking-mergeability-of-pull-requests)\".\n\nThe value of the `mergeable` attribute can be `true`, `false`, or `null`. If the value is `null`, then GitHub has started a background job to compute the mergeability. After giving the job time to complete, resubmit the request. When the job finishes, you will see a non-`null` value for the `mergeable` attribute in the response. If `mergeable` is `true`, then `merge_commit_sha` will be the SHA of the _test_ merge commit.\n\nThe value of the `merge_commit_sha` attribute changes depending on the state of the pull request. Before merging a pull request, the `merge_commit_sha` attribute holds the SHA of the _test_ merge commit. After merging a pull request, the `merge_commit_sha` attribute changes depending on how you merged the pull request:\n\n*   If merged as a [merge commit](https://help.github.com/articles/about-merge-methods-on-github/), `merge_commit_sha` represents the SHA of the merge commit.\n*   If merged via a [squash](https://help.github.com/articles/about-merge-methods-on-github/#squashing-your-merge-commits), `merge_commit_sha` represents the SHA of the squashed commit on the base branch.\n*   If [rebased](https://help.github.com/articles/about-merge-methods-on-github/#rebasing-and-merging-your-commits), `merge_commit_sha` represents the commit that the base branch was updated to.\n\nPass the appropriate [media type](/enterprise/2.12/v3/media/#commits-commit-comparison-and-pull-requests) to fetch diff and patch formats.",
   "responses": [
     {
       "headers": {
@@ -35,7 +35,6 @@
       },
       "body": {
         "id": 1,
-        "node_id": "MDExOlB1bGxSZXF1ZXN0MQ==",
         "url": "https://api.github.com/repos/octocat/Hello-World/pulls/1347",
         "html_url": "https://github.com/octocat/Hello-World/pull/1347",
         "diff_url": "https://github.com/octocat/Hello-World/pull/1347.diff",
@@ -53,7 +52,6 @@
         "assignee": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -70,23 +68,11 @@
           "type": "User",
           "site_admin": false
         },
-        "labels": [
-          {
-            "id": 208045946,
-            "node_id": "MDU6TGFiZWwyMDgwNDU5NDY=",
-            "url": "https://api.github.com/repos/octocat/Hello-World/labels/bug",
-            "name": "bug",
-            "description": "Houston, we have a problem",
-            "color": "f29513",
-            "default": true
-          }
-        ],
         "milestone": {
           "url": "https://api.github.com/repos/octocat/Hello-World/milestones/1",
           "html_url": "https://github.com/octocat/Hello-World/milestones/v1.0",
           "labels_url": "https://api.github.com/repos/octocat/Hello-World/milestones/1/labels",
           "id": 1002604,
-          "node_id": "MDk6TWlsZXN0b25lMTAwMjYwNA==",
           "number": 1,
           "state": "open",
           "title": "v1.0",
@@ -94,7 +80,6 @@
           "creator": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -119,7 +104,6 @@
           "due_on": "2012-10-09T23:39:01Z"
         },
         "locked": true,
-        "active_lock_reason": "too heated",
         "created_at": "2011-01-26T19:01:12Z",
         "updated_at": "2011-01-26T19:01:12Z",
         "closed_at": "2011-01-26T19:01:12Z",
@@ -131,7 +115,6 @@
           "user": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -150,13 +133,11 @@
           },
           "repo": {
             "id": 1296269,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
             "name": "Hello-World",
             "full_name": "octocat/Hello-World",
             "owner": {
               "login": "octocat",
               "id": 1,
-              "node_id": "MDQ6VXNlcjE=",
               "avatar_url": "https://github.com/images/error/octocat_happy.gif",
               "gravatar_id": "",
               "url": "https://api.github.com/users/octocat",
@@ -176,7 +157,7 @@
             "private": false,
             "html_url": "https://github.com/octocat/Hello-World",
             "description": "This your first repo!",
-            "fork": false,
+            "fork": true,
             "url": "https://api.github.com/repos/octocat/Hello-World",
             "archive_url": "http://api.github.com/repos/octocat/Hello-World/{archive_format}{/ref}",
             "assignees_url": "http://api.github.com/repos/octocat/Hello-World/assignees{/user}",
@@ -261,7 +242,6 @@
           "user": {
             "login": "octocat",
             "id": 1,
-            "node_id": "MDQ6VXNlcjE=",
             "avatar_url": "https://github.com/images/error/octocat_happy.gif",
             "gravatar_id": "",
             "url": "https://api.github.com/users/octocat",
@@ -280,13 +260,11 @@
           },
           "repo": {
             "id": 1296269,
-            "node_id": "MDEwOlJlcG9zaXRvcnkxMjk2MjY5",
             "name": "Hello-World",
             "full_name": "octocat/Hello-World",
             "owner": {
               "login": "octocat",
               "id": 1,
-              "node_id": "MDQ6VXNlcjE=",
               "avatar_url": "https://github.com/images/error/octocat_happy.gif",
               "gravatar_id": "",
               "url": "https://api.github.com/users/octocat",
@@ -306,7 +284,7 @@
             "private": false,
             "html_url": "https://github.com/octocat/Hello-World",
             "description": "This your first repo!",
-            "fork": false,
+            "fork": true,
             "url": "https://api.github.com/repos/octocat/Hello-World",
             "archive_url": "http://api.github.com/repos/octocat/Hello-World/{archive_format}{/ref}",
             "assignees_url": "http://api.github.com/repos/octocat/Hello-World/assignees{/user}",
@@ -413,7 +391,6 @@
         "user": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -436,7 +413,6 @@
         "merged_by": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -460,9 +436,9 @@
         "changed_files": 5,
         "maintainer_can_modify": true
       },
-      "description": "Pass the appropriate [media type](/v3/media/#commits-commit-comparison-and-pull-requests) to fetch diff and patch formats."
+      "description": "Pass the appropriate [media type](/enterprise/2.12/v3/media/#commits-commit-comparison-and-pull-requests) to fetch diff and patch formats."
     }
   ],
   "idName": "get",
-  "documentationUrl": "https://developer.github.com/v3/pulls/#get-a-single-pull-request"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/pulls/#get-a-single-pull-request"
 }

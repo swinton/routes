@@ -40,13 +40,11 @@
       },
       "body": {
         "id": 1,
-        "node_id": "MDExOkdpc3RDb21tZW50MQ==",
         "url": "https://api.github.com/gists/a6db0bec360bb87e9418/comments/1",
         "body": "Just commenting for the sake of commenting",
         "user": {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -69,5 +67,5 @@
     }
   ],
   "idName": "edit-comment",
-  "documentationUrl": "https://developer.github.com/v3/gists/comments/#edit-a-comment"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/gists/comments/#edit-a-comment"
 }

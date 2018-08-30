@@ -21,5 +21,5 @@
   ],
   "description": "Requires for the user to be authenticated.",
   "idName": "check-watching-repo-legacy",
-  "documentationUrl": "https://developer.github.com/v3/activity/watching/#check-if-you-are-watching-a-repository-legacy"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/activity/watching/#check-if-you-are-watching-a-repository-legacy"
 }

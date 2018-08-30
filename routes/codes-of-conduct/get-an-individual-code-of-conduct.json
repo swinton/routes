@@ -28,5 +28,5 @@
     }
   ],
   "idName": "get-conduct-code",
-  "documentationUrl": "https://developer.github.com/v3/codes_of_conduct/#get-an-individual-code-of-conduct"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/codes_of_conduct/#get-an-individual-code-of-conduct"
 }

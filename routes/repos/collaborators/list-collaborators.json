@@ -59,7 +59,6 @@
         {
           "login": "octocat",
           "id": 1,
-          "node_id": "MDQ6VXNlcjE=",
           "avatar_url": "https://github.com/images/error/octocat_happy.gif",
           "gravatar_id": "",
           "url": "https://api.github.com/users/octocat",
@@ -85,5 +84,5 @@
     }
   ],
   "idName": "list-collaborators",
-  "documentationUrl": "https://developer.github.com/v3/repos/collaborators/#list-collaborators"
+  "documentationUrl": "https://developer.github.com/enterprise/2.12/v3/repos/collaborators/#list-collaborators"
 }

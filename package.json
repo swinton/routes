@@ -31,6 +31,7 @@
   "homepage": "https://github.com/octokit/routes#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0",
     "execa": "^1.0.0",
     "fs-extra": "^7.0.0",
     "gh-got": "^8.0.0",
